@@ -1,0 +1,3 @@
+@W: MT420 |Found inferred clock distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:distance_mss_MSS_0.MSS_CCC_0.FAB_CLK"
+@W: MT548 :"c:/users/mtstacho/desktop/project/distance/component/work/distance_mss_mss/mss_tshell_syn.sdc":1:0:1:0|Source for clock FAB_CLK not found in netlist. Run the constraint checker to verify if constraints are applied correctly.
+@W: MT548 :"c:/users/mtstacho/desktop/project/distance/component/work/distance_mss_mss/mss_tshell_syn.sdc":2:0:2:0|Source for clock FCLK not found in netlist. Run the constraint checker to verify if constraints are applied correctly.

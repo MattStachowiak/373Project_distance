@@ -1,0 +1,49 @@
+*****************************************************************
+Pin Report - Date: Tue Apr 02 15:34:24 2019 UNCOMPLETED LAYOUT
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+Design Name: DistanceSensor
+Family: SmartFusion
+Die: A2F200M3F
+Package: 484 FBGA
+*****************************************************************
+Port       |Pin        |Fixed      |Function |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|-----------|-----------|---------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+echo        Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+PCLK        Unassigned  Unassigned            LVTTL    ---                ---   None           No               ---   ---               No           No
+PRDATA[0]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[1]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[2]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[3]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[4]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[5]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[6]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[7]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[8]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[9]   Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[10]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[11]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[12]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[13]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[14]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[15]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[16]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[17]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[18]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[19]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[20]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[21]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[22]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[23]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[24]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[25]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[26]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[27]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[28]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[29]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[30]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PRDATA[31]  Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PREADY      Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+PSLVERR     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No
+trigger     Unassigned  Unassigned            LVTTL    12                 High  None           ---              No    35                No           No

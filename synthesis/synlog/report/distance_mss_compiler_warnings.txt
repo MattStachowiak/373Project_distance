@@ -1,0 +1,8 @@
+@W: CG775 :"C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@W: CG360 :"C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":1495:0:1495:8|Removing wire CAPB3IlOI, as there is no assignment to it.
+@W: CG133 :"C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v":52:8:52:17|Object is_reading is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL279 :"C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v":58:4:58:9|Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL157 :"C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

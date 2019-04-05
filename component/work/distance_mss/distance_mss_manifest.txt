@@ -1,0 +1,17 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Fri Apr 05 13:31:54 2019
+Project   :  C:\Users\mtstacho\Desktop\project\distance
+Component :  distance_mss
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/mtstacho/Desktop/project/distance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+    C:/Users/mtstacho/Desktop/project/distance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    C:/Users/mtstacho/Desktop/project/distance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    C:/Users/mtstacho/Desktop/project/distance/component/work/distance_mss/distance_mss.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/mtstacho/Desktop/project/distance/component/work/distance_mss/subsystem.bfm
+

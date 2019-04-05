@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <inttypes.h>
+#include "drivers/mss_uart/mss_uart.h"
+
+#define BASE_ADDR 0x40050000;
+
+volatile uint32_t* DATA_READ = (uint32_t*) BASE_ADDR;
+
+int main() {
+
+	while( 1 ) {
+		uint32_t DATA = *DATA_READ;
+		printf("%ld\r\n", DATA);
+	}
+}

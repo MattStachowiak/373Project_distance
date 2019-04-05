@@ -1,0 +1,6 @@
+@W: CG133 :"C:\project\distance\hdl\sensing.v":52:8:52:17|Object is_reading is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Pruning unused register receivetrigger[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL279 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Pruning register bits 31 to 12 of data_buffer[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Pruning register bits 31 to 20 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Pruning register bits 31 to 12 of data[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

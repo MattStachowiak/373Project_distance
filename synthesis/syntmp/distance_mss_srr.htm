@@ -1,0 +1,970 @@
+<html><body><samp><pre>
+<!@TC:1554487899>
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: EECS373-12
+
+# Fri Apr 05 14:11:39 2019
+
+#Implementation: synthesis
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1554487900> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017</a>
+@N: : <!@TM:1554487900> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\mss_tshell.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\distance_mss_MSS.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss\distance_mss.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module distance_mss
+<font color=#A52A2A>@W:<a href="@W:CG775:@XP_HELP">CG775</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:13:0:13:8:@W:CG775:@XP_MSG">coreapb3.v(13)</a><!@TM:1554487900> | Found Component CoreAPB3 in library COREAPB3_LIB</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v:13:0:13:7:@N:CG364:@XP_MSG">coreapb3_muxptob3.v(13)</a><!@TM:1554487900> | Synthesizing module CAPB3II in library COREAPB3_LIB.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:13:0:13:8:@N:CG364:@XP_MSG">coreapb3.v(13)</a><!@TM:1554487900> | Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b001100
+	UPR_NIBBLE_POSN=4'b0010
+	FAMILY=32'b00000000000000000000000000010010
+	SYNC_RESET=32'b00000000000000000000000000000000
+	CAPB3OOl=32'b00000000000000000000000000000000
+	CAPB3IOl=32'b00000000000000000000000000000001
+	CAPB3lOl=32'b00000000000000000000000000000010
+	CAPB3OIl=32'b00000000000000000000000000000011
+	CAPB3IIl=32'b00000000000000000000000000000100
+	CAPB3lIl=32'b00000000000000000000000000000101
+	CAPB3Oll=32'b00000000000000000000000000000110
+	CAPB3Ill=32'b00000000000000000000000000000111
+	CAPB3lll=32'b00000000000000000000000000001000
+	CAPB3O0l=32'b00000000000000000000000000001001
+	CAPB3I0l=32'b00000000000000000000000000001010
+	CAPB3l0l=32'b00000000000000000000000000001011
+	CAPB3O1l=32'b00000000000000000000000000001100
+	CAPB3I1l=32'b00000000000000000000000000001101
+	CAPB3l1l=32'b00000000000000000000000000001110
+	CAPB3OO0=32'b00000000000000000000000000001111
+	CAPB3IO0=32'b00000000000000000000000000010000
+	CAPB3lO0=32'b00000000000000000000000000010001
+	CAPB3OI0=16'b0000000000000001
+	CAPB3II0=16'b0000000000000000
+	CAPB3lI0=16'b0000000000000000
+	CAPB3Ol0=16'b0000000000000000
+	CAPB3Il0=16'b0000000000000000
+	CAPB3ll0=16'b0000000000000000
+	CAPB3O00=16'b0000000000000000
+	CAPB3I00=16'b0000000000000000
+	CAPB3l00=16'b0000000000000000
+	CAPB3O10=16'b0000000000000000
+	CAPB3I10=16'b0000000000000000
+	CAPB3l10=16'b0000000000000000
+	CAPB3OO1=16'b0000000000000000
+	CAPB3IO1=16'b0000000000000000
+	CAPB3lO1=16'b0000000000000000
+	CAPB3OI1=16'b0000000000000000
+	CAPB3II1=16'b0000000000000000
+	CAPB3lI1=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+
+<font color=#A52A2A>@W:<a href="@W:CG360:@XP_HELP">CG360</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:1495:0:1495:9:@W:CG360:@XP_MSG">coreapb3.v(1495)</a><!@TM:1554487900> | Removing wire CAPB3IlOI, as there is no assignment to it.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\mss_tshell.v:1:7:1:14:@N:CG364:@XP_MSG">mss_tshell.v(1)</a><!@TM:1554487900> | Synthesizing module MSS_APB in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:151:7:151:14:@N:CG364:@XP_MSG">mss_comps.v(151)</a><!@TM:1554487900> | Synthesizing module MSS_CCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v:2620:7:2620:12:@N:CG364:@XP_MSG">smartfusion.v(2620)</a><!@TM:1554487900> | Synthesizing module RCOSC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v:1141:7:1141:10:@N:CG364:@XP_MSG">smartfusion.v(1141)</a><!@TM:1554487900> | Synthesizing module GND in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v:1868:7:1868:10:@N:CG364:@XP_MSG">smartfusion.v(1868)</a><!@TM:1554487900> | Synthesizing module VCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:5:7:5:45:@N:CG364:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(5)</a><!@TM:1554487900> | Synthesizing module distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:23:7:23:16:@N:CG364:@XP_MSG">mss_comps.v(23)</a><!@TM:1554487900> | Synthesizing module INBUF_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v:37:7:37:17:@N:CG364:@XP_MSG">mss_comps.v(37)</a><!@TM:1554487900> | Synthesizing module OUTBUF_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\distance_mss_MSS.v:9:7:9:23:@N:CG364:@XP_MSG">distance_mss_MSS.v(9)</a><!@TM:1554487900> | Synthesizing module distance_mss_MSS in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:29:7:29:21:@N:CG364:@XP_MSG">sensing.v(29)</a><!@TM:1554487900> | Synthesizing module DistanceSensor in library work.
+
+<font color=#A52A2A>@W:<a href="@W:CG133:@XP_HELP">CG133</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:52:8:52:18:@W:CG133:@XP_MSG">sensing.v(52)</a><!@TM:1554487900> | Object is_reading is declared but not assigned. Either assign a value or remove the declaration.</font>
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss\distance_mss.v:9:7:9:19:@N:CG364:@XP_MSG">distance_mss.v(9)</a><!@TM:1554487900> | Synthesizing module distance_mss in library work.
+
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[17] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[18] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[19] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[20] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[21] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[22] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[23] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[24] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[25] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[26] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[27] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[28] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[29] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[30] is always 0.
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@N:CL189:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Register bit count[31] is always 0.
+<font color=#A52A2A>@W:<a href="@W:CL279:@XP_HELP">CL279</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:58:4:58:10:@W:CL279:@XP_MSG">sensing.v(58)</a><!@TM:1554487900> | Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:31:10:31:17:@N:CL159:@XP_MSG">sensing.v(31)</a><!@TM:1554487900> | Input PRESERN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:33:10:33:14:@N:CL159:@XP_MSG">sensing.v(33)</a><!@TM:1554487900> | Input PSEL is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:34:10:34:17:@N:CL159:@XP_MSG">sensing.v(34)</a><!@TM:1554487900> | Input PENABLE is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:37:10:37:16:@N:CL159:@XP_MSG">sensing.v(37)</a><!@TM:1554487900> | Input PWRITE is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:38:17:38:22:@N:CL159:@XP_MSG">sensing.v(38)</a><!@TM:1554487900> | Input PADDR is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\hdl\sensing.v:39:22:39:28:@N:CL159:@XP_MSG">sensing.v(39)</a><!@TM:1554487900> | Input PWDATA is unused.
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:62:7:62:19:@W:CL157:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(62)</a><!@TM:1554487900> | *Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:63:7:63:21:@W:CL157:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(63)</a><!@TM:1554487900> | *Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+<font color=#A52A2A>@W:<a href="@W:CL157:@XP_HELP">CL157</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:64:7:64:19:@W:CL157:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(64)</a><!@TM:1554487900> | *Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.</font>
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:36:7:36:11:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(36)</a><!@TM:1554487900> | Input CLKA is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:37:7:37:15:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(37)</a><!@TM:1554487900> | Input CLKA_PAD is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:38:7:38:16:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(38)</a><!@TM:1554487900> | Input CLKA_PADP is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:39:7:39:16:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(39)</a><!@TM:1554487900> | Input CLKA_PADN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:40:7:40:11:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(40)</a><!@TM:1554487900> | Input CLKB is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:41:7:41:15:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(41)</a><!@TM:1554487900> | Input CLKB_PAD is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:42:7:42:16:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(42)</a><!@TM:1554487900> | Input CLKB_PADP is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:43:7:43:16:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(43)</a><!@TM:1554487900> | Input CLKB_PADN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:44:7:44:11:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(44)</a><!@TM:1554487900> | Input CLKC is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:45:7:45:15:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(45)</a><!@TM:1554487900> | Input CLKC_PAD is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:46:7:46:16:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(46)</a><!@TM:1554487900> | Input CLKC_PADP is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:47:7:47:16:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(47)</a><!@TM:1554487900> | Input CLKC_PADN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:48:7:48:14:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(48)</a><!@TM:1554487900> | Input MAINXIN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:49:7:49:12:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(49)</a><!@TM:1554487900> | Input LPXIN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\MSS_CCC_0\distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v:50:7:50:14:@N:CL159:@XP_MSG">distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v(50)</a><!@TM:1554487900> | Input MAC_CLK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:396:0:396:5:@N:CL159:@XP_MSG">coreapb3.v(396)</a><!@TM:1554487900> | Input IADDR is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:398:0:398:7:@N:CL159:@XP_MSG">coreapb3.v(398)</a><!@TM:1554487900> | Input PRESETN is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:400:0:400:4:@N:CL159:@XP_MSG">coreapb3.v(400)</a><!@TM:1554487900> | Input PCLK is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:521:0:521:8:@N:CL159:@XP_MSG">coreapb3.v(521)</a><!@TM:1554487900> | Input PRDATAS1 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:528:0:528:8:@N:CL159:@XP_MSG">coreapb3.v(528)</a><!@TM:1554487900> | Input PRDATAS2 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:535:0:535:8:@N:CL159:@XP_MSG">coreapb3.v(535)</a><!@TM:1554487900> | Input PRDATAS3 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:542:0:542:8:@N:CL159:@XP_MSG">coreapb3.v(542)</a><!@TM:1554487900> | Input PRDATAS4 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:549:0:549:8:@N:CL159:@XP_MSG">coreapb3.v(549)</a><!@TM:1554487900> | Input PRDATAS5 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:556:0:556:8:@N:CL159:@XP_MSG">coreapb3.v(556)</a><!@TM:1554487900> | Input PRDATAS6 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:563:0:563:8:@N:CL159:@XP_MSG">coreapb3.v(563)</a><!@TM:1554487900> | Input PRDATAS7 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:570:0:570:8:@N:CL159:@XP_MSG">coreapb3.v(570)</a><!@TM:1554487900> | Input PRDATAS8 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:577:0:577:8:@N:CL159:@XP_MSG">coreapb3.v(577)</a><!@TM:1554487900> | Input PRDATAS9 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:584:0:584:9:@N:CL159:@XP_MSG">coreapb3.v(584)</a><!@TM:1554487900> | Input PRDATAS10 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:591:0:591:9:@N:CL159:@XP_MSG">coreapb3.v(591)</a><!@TM:1554487900> | Input PRDATAS11 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:598:0:598:9:@N:CL159:@XP_MSG">coreapb3.v(598)</a><!@TM:1554487900> | Input PRDATAS12 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:605:0:605:9:@N:CL159:@XP_MSG">coreapb3.v(605)</a><!@TM:1554487900> | Input PRDATAS13 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:612:0:612:9:@N:CL159:@XP_MSG">coreapb3.v(612)</a><!@TM:1554487900> | Input PRDATAS14 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:619:0:619:9:@N:CL159:@XP_MSG">coreapb3.v(619)</a><!@TM:1554487900> | Input PRDATAS15 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:630:0:630:8:@N:CL159:@XP_MSG">coreapb3.v(630)</a><!@TM:1554487900> | Input PREADYS1 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:632:0:632:8:@N:CL159:@XP_MSG">coreapb3.v(632)</a><!@TM:1554487900> | Input PREADYS2 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:634:0:634:8:@N:CL159:@XP_MSG">coreapb3.v(634)</a><!@TM:1554487900> | Input PREADYS3 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:636:0:636:8:@N:CL159:@XP_MSG">coreapb3.v(636)</a><!@TM:1554487900> | Input PREADYS4 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:638:0:638:8:@N:CL159:@XP_MSG">coreapb3.v(638)</a><!@TM:1554487900> | Input PREADYS5 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:640:0:640:8:@N:CL159:@XP_MSG">coreapb3.v(640)</a><!@TM:1554487900> | Input PREADYS6 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:642:0:642:8:@N:CL159:@XP_MSG">coreapb3.v(642)</a><!@TM:1554487900> | Input PREADYS7 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:644:0:644:8:@N:CL159:@XP_MSG">coreapb3.v(644)</a><!@TM:1554487900> | Input PREADYS8 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:646:0:646:8:@N:CL159:@XP_MSG">coreapb3.v(646)</a><!@TM:1554487900> | Input PREADYS9 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:648:0:648:9:@N:CL159:@XP_MSG">coreapb3.v(648)</a><!@TM:1554487900> | Input PREADYS10 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:650:0:650:9:@N:CL159:@XP_MSG">coreapb3.v(650)</a><!@TM:1554487900> | Input PREADYS11 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:652:0:652:9:@N:CL159:@XP_MSG">coreapb3.v(652)</a><!@TM:1554487900> | Input PREADYS12 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:654:0:654:9:@N:CL159:@XP_MSG">coreapb3.v(654)</a><!@TM:1554487900> | Input PREADYS13 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:656:0:656:9:@N:CL159:@XP_MSG">coreapb3.v(656)</a><!@TM:1554487900> | Input PREADYS14 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:658:0:658:9:@N:CL159:@XP_MSG">coreapb3.v(658)</a><!@TM:1554487900> | Input PREADYS15 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:664:0:664:9:@N:CL159:@XP_MSG">coreapb3.v(664)</a><!@TM:1554487900> | Input PSLVERRS1 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:666:0:666:9:@N:CL159:@XP_MSG">coreapb3.v(666)</a><!@TM:1554487900> | Input PSLVERRS2 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:668:0:668:9:@N:CL159:@XP_MSG">coreapb3.v(668)</a><!@TM:1554487900> | Input PSLVERRS3 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:670:0:670:9:@N:CL159:@XP_MSG">coreapb3.v(670)</a><!@TM:1554487900> | Input PSLVERRS4 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:672:0:672:9:@N:CL159:@XP_MSG">coreapb3.v(672)</a><!@TM:1554487900> | Input PSLVERRS5 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:674:0:674:9:@N:CL159:@XP_MSG">coreapb3.v(674)</a><!@TM:1554487900> | Input PSLVERRS6 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:676:0:676:9:@N:CL159:@XP_MSG">coreapb3.v(676)</a><!@TM:1554487900> | Input PSLVERRS7 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:678:0:678:9:@N:CL159:@XP_MSG">coreapb3.v(678)</a><!@TM:1554487900> | Input PSLVERRS8 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:680:0:680:9:@N:CL159:@XP_MSG">coreapb3.v(680)</a><!@TM:1554487900> | Input PSLVERRS9 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:682:0:682:10:@N:CL159:@XP_MSG">coreapb3.v(682)</a><!@TM:1554487900> | Input PSLVERRS10 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:684:0:684:10:@N:CL159:@XP_MSG">coreapb3.v(684)</a><!@TM:1554487900> | Input PSLVERRS11 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:686:0:686:10:@N:CL159:@XP_MSG">coreapb3.v(686)</a><!@TM:1554487900> | Input PSLVERRS12 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:688:0:688:10:@N:CL159:@XP_MSG">coreapb3.v(688)</a><!@TM:1554487900> | Input PSLVERRS13 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:690:0:690:10:@N:CL159:@XP_MSG">coreapb3.v(690)</a><!@TM:1554487900> | Input PSLVERRS14 is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Users\mtstacho\Desktop\project\distance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v:692:0:692:10:@N:CL159:@XP_MSG">coreapb3.v(692)</a><!@TM:1554487900> | Input PSLVERRS15 is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 78MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 05 14:11:40 2019
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1554487900> | Running in 64-bit mode 
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 05 14:11:40 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 05 14:11:40 2019
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017</a>
+@N: : <!@TM:1554487901> | Running in 64-bit mode 
+File C:\Users\mtstacho\Desktop\project\distance\synthesis\synwork\distance_mss_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Apr 05 14:11:41 2019
+
+###########################################################]
+# Fri Apr 05 14:11:41 2019
+
+<a name=mapperReport5></a>Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39</a>
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\mss_tshell_syn.sdc
+Linked File: <a href="C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss_scck.rpt:@XP_FILE">distance_mss_scck.rpt</a>
+Printing clock  summary report in "C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1554487902> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1554487902> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 106MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 106MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v:64:7:64:19:@N:MO111:@XP_MSG">distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v(64)</a><!@TM:1554487902> | Tristate driver LPXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v:63:7:63:21:@N:MO111:@XP_MSG">distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v(63)</a><!@TM:1554487902> | Tristate driver MAINXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v:62:7:62:19:@N:MO111:@XP_MSG">distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v(62)</a><!@TM:1554487902> | Tristate driver RCOSC_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start                                                             Requested     Requested     Clock        Clock                   Clock
+Clock                                                             Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------
+FAB_CLK                                                           100.0 MHz     10.000        declared     clk_group_0             0    
+FCLK                                                              100.0 MHz     10.000        declared     clk_group_0             0    
+distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     84   
+========================================================================================================================================
+
+<font color=#A52A2A>@W:<a href="@W:MT530:@XP_HELP">MT530</a> : <a href="c:\users\mtstacho\desktop\project\distance\hdl\sensing.v:76:4:76:10:@W:MT530:@XP_MSG">sensing.v(76)</a><!@TM:1554487902> | Found inferred clock distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock which controls 84 sequential elements including DistanceSensor_0.data[31:0]. This clock has no specified timing constraint which may adversely impact design performance. </font>
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1554487902> | Writing default property annotation file C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+None
+None
+<font color=#A52A2A>@W:<a href="@W:MF511:@XP_HELP">MF511</a> : <!@TM:1554487902> | Found issues with constraints. Please check constraint checker report "C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss_cck.rpt" .</font> 
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 114MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 05 14:11:42 2019
+
+###########################################################]
+# Fri Apr 05 14:11:42 2019
+
+<a name=mapperReport7></a>Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39</a>
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1554487903> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1554487903> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v:64:7:64:19:@N:MO111:@XP_MSG">distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v(64)</a><!@TM:1554487903> | Tristate driver LPXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v:63:7:63:21:@N:MO111:@XP_MSG">distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v(63)</a><!@TM:1554487903> | Tristate driver MAINXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v:62:7:62:19:@N:MO111:@XP_MSG">distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v(62)</a><!@TM:1554487903> | Tristate driver RCOSC_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+@N:<a href="@N:MO231:@XP_HELP">MO231</a> : <a href="c:\users\mtstacho\desktop\project\distance\hdl\sensing.v:76:4:76:10:@N:MO231:@XP_MSG">sensing.v(76)</a><!@TM:1554487903> | Found counter in view:work.DistanceSensor(verilog) instance data_buffer[31:0] 
+@N:<a href="@N:MF238:@XP_HELP">MF238</a> : <a href="c:\users\mtstacho\desktop\project\distance\hdl\sensing.v:60:21:60:31:@N:MF238:@XP_MSG">sensing.v(60)</a><!@TM:1554487903> | Found 17-bit incrementor, 'count_2[16:0]'
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name             Fanout, notes
+----------------------------------------------------
+DistanceSensor_0.data_1_sqmuxa / Y     32           
+DistanceSensor_0.data_0_sqmuxa / Y     33           
+CoreAPB3_0.CAPB3l0OI_1[0] / Y          32           
+CoreAPB3_0.CAPB3l0OI_2[0] / Y          32           
+====================================================
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+Replicating Combinational Instance CoreAPB3_0.CAPB3l0OI_2[0], fanout 32 segments 2
+Replicating Combinational Instance CoreAPB3_0.CAPB3l0OI_1[0], fanout 32 segments 2
+Replicating Combinational Instance DistanceSensor_0.data_0_sqmuxa, fanout 33 segments 2
+Replicating Combinational Instance DistanceSensor_0.data_1_sqmuxa, fanout 32 segments 2
+
+Added 0 Buffers
+Added 4 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 4 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 84 clock pin(s) of sequential element(s)
+0 instances converted, 84 sequential instances remain driven by gated/generated clocks
+
+================================================================================================================= Gated/Generated Clocks ==================================================================================================================
+Clock Tree ID     Driving Element                           Drive Element Type     Fanout     Sample Instance                Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<a href="@|S:distance_mss_MSS_0.MSS_CCC_0.I_MSSCCC@|E:DistanceSensor_0.count[16]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       distance_mss_MSS_0.MSS_CCC_0.I_MSSCCC     MSS_CCC                84         DistanceSensor_0.count[16]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+===========================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+Writing Analyst data base C:\Users\mtstacho\Desktop\project\distance\synthesis\synwork\distance_mss_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+<font color=#A52A2A>@W:<a href="@W:MT420:@XP_HELP">MT420</a> : <!@TM:1554487903> | Found inferred clock distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:distance_mss_MSS_0.MSS_CCC_0.FAB_CLK"</font> 
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Fri Apr 05 14:11:43 2019
+#
+
+
+Top view:               distance_mss
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Users\mtstacho\Desktop\project\distance\component\work\distance_mss_MSS\mss_tshell_syn.sdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1554487903> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1554487903> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: -3.082
+
+                                                                  Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                                                    Frequency     Frequency     Period        Period        Slack      Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     100.0 MHz     76.4 MHz      10.000        13.082        -3.082     inferred     Inferred_clkgroup_0
+System                                                            100.0 MHz     181.5 MHz     10.000        5.509         4.491      system       system_clkgroup    
+=====================================================================================================================================================================
+<font color=#A52A2A>@W:<a href="@W:MT548:@XP_HELP">MT548</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_tshell_syn.sdc:1:0:1:1:@W:MT548:@XP_MSG">mss_tshell_syn.sdc(1)</a><!@TM:1554487903> | Source for clock FAB_CLK not found in netlist. Run the constraint checker to verify if constraints are applied correctly.</font>
+<font color=#A52A2A>@W:<a href="@W:MT548:@XP_HELP">MT548</a> : <a href="c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_tshell_syn.sdc:2:0:2:1:@W:MT548:@XP_MSG">mss_tshell_syn.sdc(2)</a><!@TM:1554487903> | Source for clock FCLK not found in netlist. Run the constraint checker to verify if constraints are applied correctly.</font>
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks                                                                                                                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                       Ending                                                         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                         System                                                         |  10.000      4.491   |  No paths    -      |  No paths    -      |  No paths    -    
+distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock  System                                                         |  10.000      7.979   |  No paths    -      |  No paths    -      |  No paths    -    
+distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock  distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock  |  10.000      -3.082  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                                     Starting                                                                                               Arrival           
+Instance                             Reference                                                         Type     Pin     Net                 Time        Slack 
+                                     Clock                                                                                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[0]      0.737       -3.082
+DistanceSensor_0.data_buffer[1]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[1]      0.737       -2.817
+DistanceSensor_0.data_buffer[3]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[3]      0.737       -2.284
+DistanceSensor_0.data_buffer[2]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[2]      0.737       -2.171
+DistanceSensor_0.data_buffer[12]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[12]     0.737       -0.916
+DistanceSensor_0.data_buffer[9]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[9]      0.737       -0.817
+DistanceSensor_0.data_buffer[13]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[13]     0.737       -0.659
+DistanceSensor_0.data_buffer[16]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[16]     0.737       -0.400
+DistanceSensor_0.data_buffer[17]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[17]     0.737       -0.165
+DistanceSensor_0.data_buffer[4]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     Q       data_buffer[4]      0.737       0.068 
+==============================================================================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                                     Starting                                                                                               Required           
+Instance                             Reference                                                         Type     Pin     Net                 Time         Slack 
+                                     Clock                                                                                                                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[14]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n14     9.427        -3.082
+DistanceSensor_0.data_buffer[8]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n8      9.427        -2.790
+DistanceSensor_0.data_buffer[10]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n10     9.427        -2.790
+DistanceSensor_0.data_buffer[11]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n11     9.427        -2.790
+DistanceSensor_0.data_buffer[17]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n17     9.427        -2.319
+DistanceSensor_0.data_buffer[7]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n7      9.427        -1.954
+DistanceSensor_0.data_buffer[9]      distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n9      9.427        -1.954
+DistanceSensor_0.data_buffer[15]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n15     9.461        -1.754
+DistanceSensor_0.data_buffer[28]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n28     9.427        -1.486
+DistanceSensor_0.data_buffer[16]     distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock     DFN1     D       data_buffer_n16     9.427        -1.483
+===============================================================================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srr:srsfC:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srs:fp:47785:50305:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.508
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -3.082
+
+    Number of logic level(s):                7
+    Starting point:                          DistanceSensor_0.data_buffer[0] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[14] / D
+    The start point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                        Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]             DFN1      Q        Out     0.737     0.737       -         
+data_buffer[0]                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     A        In      -         1.921       -         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     Y        Out     0.514     2.435       -         
+data_buffer_c1                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     B        In      -         3.619       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     Y        Out     0.627     4.246       -         
+data_buffer_c3                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     A        In      -         5.525       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     Y        Out     0.514     6.040       -         
+data_buffer_c4                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     A        In      -         7.319       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     Y        Out     0.514     7.833       -         
+data_buffer_c5                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNI0L5I[6]     NOR2B     A        In      -         9.112       -         
+DistanceSensor_0.data_buffer_RNI0L5I[6]     NOR2B     Y        Out     0.514     9.627       -         
+data_buffer_c6                              Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNO_0[14]      NOR3C     C        In      -         10.433      -         
+DistanceSensor_0.data_buffer_RNO_0[14]      NOR3C     Y        Out     0.641     11.074      -         
+data_N_11_mux                               Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer_RNO[14]        XA1B      A        In      -         11.396      -         
+DistanceSensor_0.data_buffer_RNO[14]        XA1B      Y        Out     0.791     12.187      -         
+data_buffer_n14                             Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[14]            DFN1      D        In      -         12.508      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 13.082 is 5.427(41.5%) logic and 7.654(58.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.244
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.817
+
+    Number of logic level(s):                7
+    Starting point:                          DistanceSensor_0.data_buffer[1] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[14] / D
+    The start point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                        Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[1]             DFN1      Q        Out     0.737     0.737       -         
+data_buffer[1]                              Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     B        In      -         1.543       -         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     Y        Out     0.627     2.171       -         
+data_buffer_c1                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     B        In      -         3.354       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     Y        Out     0.627     3.982       -         
+data_buffer_c3                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     A        In      -         5.261       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     Y        Out     0.514     5.775       -         
+data_buffer_c4                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     A        In      -         7.055       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     Y        Out     0.514     7.569       -         
+data_buffer_c5                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNI0L5I[6]     NOR2B     A        In      -         8.848       -         
+DistanceSensor_0.data_buffer_RNI0L5I[6]     NOR2B     Y        Out     0.514     9.363       -         
+data_buffer_c6                              Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNO_0[14]      NOR3C     C        In      -         10.169      -         
+DistanceSensor_0.data_buffer_RNO_0[14]      NOR3C     Y        Out     0.641     10.810      -         
+data_N_11_mux                               Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer_RNO[14]        XA1B      A        In      -         11.132      -         
+DistanceSensor_0.data_buffer_RNO[14]        XA1B      Y        Out     0.791     11.922      -         
+data_buffer_n14                             Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[14]            DFN1      D        In      -         12.244      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.817 is 5.540(43.2%) logic and 7.277(56.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.216
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.790
+
+    Number of logic level(s):                7
+    Starting point:                          DistanceSensor_0.data_buffer[0] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[10] / D
+    The start point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                        Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]             DFN1      Q        Out     0.737     0.737       -         
+data_buffer[0]                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     A        In      -         1.921       -         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     Y        Out     0.514     2.435       -         
+data_buffer_c1                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     B        In      -         3.619       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     Y        Out     0.627     4.246       -         
+data_buffer_c3                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     A        In      -         5.525       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     Y        Out     0.514     6.040       -         
+data_buffer_c4                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     A        In      -         7.319       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     Y        Out     0.514     7.833       -         
+data_buffer_c5                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNI94CN[6]     NOR2B     A        In      -         9.112       -         
+DistanceSensor_0.data_buffer_RNI94CN[6]     NOR2B     Y        Out     0.514     9.627       -         
+data_buffer_c8                              Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNO_0[10]      NOR2B     A        In      -         10.433      -         
+DistanceSensor_0.data_buffer_RNO_0[10]      NOR2B     Y        Out     0.514     10.948      -         
+data_buffer_c9                              Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer_RNO[10]        XA1B      B        In      -         11.269      -         
+DistanceSensor_0.data_buffer_RNO[10]        XA1B      Y        Out     0.626     11.895      -         
+data_buffer_n10                             Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[10]            DFN1      D        In      -         12.216      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.790 is 5.135(40.2%) logic and 7.654(59.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.216
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.790
+
+    Number of logic level(s):                7
+    Starting point:                          DistanceSensor_0.data_buffer[0] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[8] / D
+    The start point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                        Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]             DFN1      Q        Out     0.737     0.737       -         
+data_buffer[0]                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     A        In      -         1.921       -         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     Y        Out     0.514     2.435       -         
+data_buffer_c1                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     B        In      -         3.619       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     Y        Out     0.627     4.246       -         
+data_buffer_c3                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     A        In      -         5.525       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     Y        Out     0.514     6.040       -         
+data_buffer_c4                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     A        In      -         7.319       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     Y        Out     0.514     7.833       -         
+data_buffer_c5                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNI0L5I[6]     NOR2B     A        In      -         9.112       -         
+DistanceSensor_0.data_buffer_RNI0L5I[6]     NOR2B     Y        Out     0.514     9.627       -         
+data_buffer_c6                              Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNO_0[8]       NOR2B     A        In      -         10.433      -         
+DistanceSensor_0.data_buffer_RNO_0[8]       NOR2B     Y        Out     0.514     10.948      -         
+data_buffer_c7                              Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer_RNO[8]         XA1B      B        In      -         11.269      -         
+DistanceSensor_0.data_buffer_RNO[8]         XA1B      Y        Out     0.626     11.895      -         
+data_buffer_n8                              Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[8]             DFN1      D        In      -         12.216      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.790 is 5.135(40.2%) logic and 7.654(59.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      12.216
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.790
+
+    Number of logic level(s):                7
+    Starting point:                          DistanceSensor_0.data_buffer[0] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[11] / D
+    The start point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                        Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]             DFN1      Q        Out     0.737     0.737       -         
+data_buffer[0]                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     A        In      -         1.921       -         
+DistanceSensor_0.data_buffer_RNIR065[1]     NOR2B     Y        Out     0.514     2.435       -         
+data_buffer_c1                              Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     B        In      -         3.619       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[2]     NOR2B     Y        Out     0.627     4.246       -         
+data_buffer_c3                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     A        In      -         5.525       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]     NOR2B     Y        Out     0.514     6.040       -         
+data_buffer_c4                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     A        In      -         7.319       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]     NOR2B     Y        Out     0.514     7.833       -         
+data_buffer_c5                              Net       -        -       1.279     -           5         
+DistanceSensor_0.data_buffer_RNI94CN[6]     NOR2B     A        In      -         9.112       -         
+DistanceSensor_0.data_buffer_RNI94CN[6]     NOR2B     Y        Out     0.514     9.627       -         
+data_buffer_c8                              Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNO_0[11]      NOR2B     A        In      -         10.433      -         
+DistanceSensor_0.data_buffer_RNO_0[11]      NOR2B     Y        Out     0.514     10.948      -         
+data_buffer_c10                             Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer_RNO[11]        XA1B      B        In      -         11.269      -         
+DistanceSensor_0.data_buffer_RNO[11]        XA1B      Y        Out     0.626     11.895      -         
+data_buffer_n11                             Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[11]            DFN1      D        In      -         12.216      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 12.790 is 5.135(40.2%) logic and 7.654(59.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+<a name=clockReport17></a>Detailed Report for Clock: System</a>
+====================================
+
+
+
+<a name=startingSlack18></a>Starting Points with Worst Slack</a>
+********************************
+
+                                         Starting                                                                                   Arrival          
+Instance                                 Reference     Type        Pin              Net                                             Time        Slack
+                                         Clock                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+distance_mss_MSS_0.MSS_CCC_0.I_RCOSC     System        RCOSC       CLKOUT           N_CLKA_RCOSC                                    0.000       4.491
+distance_mss_MSS_0.MSS_ADLIB_INST        System        MSS_APB     MSSPADDR[8]      distance_mss_MSS_0_MSS_MASTER_APB_PADDR[8]      0.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST        System        MSS_APB     MSSPSEL          distance_mss_MSS_0_MSS_MASTER_APB_PSELx         0.000       5.832
+distance_mss_MSS_0.MSS_ADLIB_INST        System        MSS_APB     MSSPADDR[11]     distance_mss_MSS_0_MSS_MASTER_APB_PADDR[11]     0.000       5.949
+distance_mss_MSS_0.MSS_ADLIB_INST        System        MSS_APB     MSSPADDR[9]      distance_mss_MSS_0_MSS_MASTER_APB_PADDR[9]      0.000       6.008
+distance_mss_MSS_0.MSS_ADLIB_INST        System        MSS_APB     MSSPADDR[10]     distance_mss_MSS_0_MSS_MASTER_APB_PADDR[10]     0.000       6.088
+distance_mss_MSS_0.MSS_ADLIB_INST        System        MSS_APB     EMCCLK           MSS_ADLIB_INST_EMCCLK                           0.000       9.678
+=====================================================================================================================================================
+
+
+<a name=endingSlack19></a>Ending Points with Worst Slack</a>
+******************************
+
+                                      Starting                                                                                   Required          
+Instance                              Reference     Type        Pin              Net                                             Time         Slack
+                                      Clock                                                                                                        
+---------------------------------------------------------------------------------------------------------------------------------------------------
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     FCLK             MSS_ADLIB_INST_FCLK                             10.000       4.491
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[0]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[0]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[1]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[1]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[2]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[2]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[3]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[3]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[4]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[4]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[5]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[5]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[6]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[6]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[7]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[7]     10.000       5.780
+distance_mss_MSS_0.MSS_ADLIB_INST     System        MSS_APB     MSSPRDATA[8]     distance_mss_MSS_0_MSS_MASTER_APB_PRDATA[8]     10.000       5.780
+===================================================================================================================================================
+
+
+
+<a name=worstPaths20></a>Worst Path Information</a>
+<a href="C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srr:srsfC:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srs:fp:72463:73105:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      5.509
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.491
+
+    Number of logic level(s):                1
+    Starting point:                          distance_mss_MSS_0.MSS_CCC_0.I_RCOSC / CLKOUT
+    Ending point:                            distance_mss_MSS_0.MSS_ADLIB_INST / FCLK
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                        Pin        Pin               Arrival     No. of    
+Name                                      Type        Name       Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+distance_mss_MSS_0.MSS_CCC_0.I_RCOSC      RCOSC       CLKOUT     Out     0.000     0.000       -         
+N_CLKA_RCOSC                              Net         -          -       0.322     -           1         
+distance_mss_MSS_0.MSS_CCC_0.I_MSSCCC     MSS_CCC     CLKA       In      -         0.322       -         
+distance_mss_MSS_0.MSS_CCC_0.I_MSSCCC     MSS_CCC     GLAMSS     Out     4.866     5.188       -         
+MSS_ADLIB_INST_FCLK                       Net         -          -       0.322     -           1         
+distance_mss_MSS_0.MSS_ADLIB_INST         MSS_APB     FCLK       In      -         5.509       -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 5.509 is 4.866(88.3%) logic and 0.643(11.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 115MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+<a name=cellReport21></a>Report for cell distance_mss.verilog</a>
+  Core Cell usage:
+              cell count     area count*area
+              AND2     4      1.0        4.0
+              AND3    18      1.0       18.0
+               AO1     1      1.0        1.0
+               AX1     1      1.0        1.0
+              AX1C     2      1.0        2.0
+               GND     6      0.0        0.0
+           MSS_APB     1      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+              NOR2     5      1.0        5.0
+             NOR2A    13      1.0       13.0
+             NOR2B    51      1.0       51.0
+              NOR3     1      1.0        1.0
+             NOR3A     2      1.0        2.0
+             NOR3B     2      1.0        2.0
+             NOR3C    64      1.0       64.0
+               OA1     3      1.0        3.0
+              OA1C     1      1.0        1.0
+               OR2     1      1.0        1.0
+              OR2B     1      1.0        1.0
+               OR3     2      1.0        2.0
+              OR3C     1      1.0        1.0
+             RCOSC     1      0.0        0.0
+               VCC     6      0.0        0.0
+              XA1B    28      1.0       28.0
+              XOR2    16      1.0       16.0
+
+
+              DFN1    52      1.0       52.0
+            DFN1E1    32      1.0       32.0
+                   -----          ----------
+             TOTAL   316               301.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     1
+         INBUF_MSS     2
+            OUTBUF     1
+        OUTBUF_MSS     1
+                   -----
+             TOTAL     5
+
+
+Core Cells         : 301 of 4608 (7%)
+IO Cells           : 5
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 115MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Apr 05 14:11:43 2019
+
+###########################################################]
+
+</pre></samp></body></html>

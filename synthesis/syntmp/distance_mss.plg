@@ -1,0 +1,19 @@
+@P:  Worst Slack : -3.082
+@P:  distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock - Estimated Frequency : 76.4 MHz
+@P:  distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock - Estimated Period : 13.082
+@P:  distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock - Requested Period : 10.000
+@P:  distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock - Slack : -3.082
+@P:  System - Estimated Frequency : 181.5 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 5.509
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 4.491
+@P:  Total Area : 301.0
+@P:  Total Area : 265.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 36.0
+@P:  Total Area : 32.0
+@P:  Total Area : 301.0
+@P:  CPU Time : 0h:00m:00s

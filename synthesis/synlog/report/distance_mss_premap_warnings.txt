@@ -1,0 +1,2 @@
+@W: MT530 :"c:\users\mtstacho\desktop\project\distance\hdl\sensing.v":76:4:76:9|Found inferred clock distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC|FAB_CLK_inferred_clock which controls 84 sequential elements including DistanceSensor_0.data[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MF511 |Found issues with constraints. Please check constraint checker report "C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss_cck.rpt" .

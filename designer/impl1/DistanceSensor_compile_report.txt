@@ -1,0 +1,280 @@
+***************************************************************************
+                               Status Report
+                          Tue Apr 02 15:17:06 2019 ***************************************************************************
+
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+File Name: C:\project\distance\designer\impl1\DistanceSensor.adb
+Design Name: DistanceSensor  Design State: compile
+Last Saved: Tue Apr 02 15:17:05 2019
+
+***** Device Data **************************************************
+
+Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Tue Apr 02 15:17:04 2019:
+        C:\project\distance\synthesis\DistanceSensor.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : SmartFusion
+Device      : A2F200M3F
+Package     : 484 FBGA
+Source      : C:\project\distance\synthesis\DistanceSensor.edn
+Format      : EDIF
+Topcell     : DistanceSensor
+Speed grade : STD
+Temp        : 0:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: Top level port PRESERN is not connected to any IO pad
+Warning: Top level port PSEL is not connected to any IO pad
+Warning: Top level port PENABLE is not connected to any IO pad
+Warning: Top level port PWRITE is not connected to any IO pad
+Warning: Top level port PADDR<31> is not connected to any IO pad
+Warning: Top level port PADDR<30> is not connected to any IO pad
+Warning: Top level port PADDR<29> is not connected to any IO pad
+Warning: Top level port PADDR<28> is not connected to any IO pad
+Warning: Top level port PADDR<27> is not connected to any IO pad
+Warning: Top level port PADDR<26> is not connected to any IO pad
+Warning: Top level port PADDR<25> is not connected to any IO pad
+Warning: Top level port PADDR<24> is not connected to any IO pad
+Warning: Top level port PADDR<23> is not connected to any IO pad
+Warning: Top level port PADDR<22> is not connected to any IO pad
+Warning: Top level port PADDR<21> is not connected to any IO pad
+Warning: Top level port PADDR<20> is not connected to any IO pad
+Warning: Top level port PADDR<19> is not connected to any IO pad
+Warning: Top level port PADDR<18> is not connected to any IO pad
+Warning: Top level port PADDR<17> is not connected to any IO pad
+Warning: Top level port PADDR<16> is not connected to any IO pad
+Warning: Top level port PADDR<15> is not connected to any IO pad
+Warning: Top level port PADDR<14> is not connected to any IO pad
+Warning: Top level port PADDR<13> is not connected to any IO pad
+Warning: Top level port PADDR<12> is not connected to any IO pad
+Warning: Top level port PADDR<11> is not connected to any IO pad
+Warning: Top level port PADDR<10> is not connected to any IO pad
+Warning: Top level port PADDR<9> is not connected to any IO pad
+Warning: Top level port PADDR<8> is not connected to any IO pad
+Warning: Top level port PADDR<7> is not connected to any IO pad
+Warning: Top level port PADDR<6> is not connected to any IO pad
+Warning: Top level port PADDR<5> is not connected to any IO pad
+Warning: Top level port PADDR<4> is not connected to any IO pad
+Warning: Top level port PADDR<3> is not connected to any IO pad
+Warning: Top level port PADDR<2> is not connected to any IO pad
+Warning: Top level port PADDR<1> is not connected to any IO pad
+Warning: Top level port PADDR<0> is not connected to any IO pad
+Warning: Top level port PWDATA<31> is not connected to any IO pad
+Warning: Top level port PWDATA<30> is not connected to any IO pad
+Warning: Top level port PWDATA<29> is not connected to any IO pad
+Warning: Top level port PWDATA<28> is not connected to any IO pad
+Warning: Top level port PWDATA<27> is not connected to any IO pad
+Warning: Top level port PWDATA<26> is not connected to any IO pad
+Warning: Top level port PWDATA<25> is not connected to any IO pad
+Warning: Top level port PWDATA<24> is not connected to any IO pad
+Warning: Top level port PWDATA<23> is not connected to any IO pad
+Warning: Top level port PWDATA<22> is not connected to any IO pad
+Warning: Top level port PWDATA<21> is not connected to any IO pad
+Warning: Top level port PWDATA<20> is not connected to any IO pad
+Warning: Top level port PWDATA<19> is not connected to any IO pad
+Warning: Top level port PWDATA<18> is not connected to any IO pad
+Warning: Top level port PWDATA<17> is not connected to any IO pad
+Warning: Top level port PWDATA<16> is not connected to any IO pad
+Warning: Top level port PWDATA<15> is not connected to any IO pad
+Warning: Top level port PWDATA<14> is not connected to any IO pad
+Warning: Top level port PWDATA<13> is not connected to any IO pad
+Warning: Top level port PWDATA<12> is not connected to any IO pad
+Warning: Top level port PWDATA<11> is not connected to any IO pad
+Warning: Top level port PWDATA<10> is not connected to any IO pad
+Warning: Top level port PWDATA<9> is not connected to any IO pad
+Warning: Top level port PWDATA<8> is not connected to any IO pad
+Warning: Top level port PWDATA<7> is not connected to any IO pad
+Warning: Top level port PWDATA<6> is not connected to any IO pad
+Warning: Top level port PWDATA<5> is not connected to any IO pad
+Warning: Top level port PWDATA<4> is not connected to any IO pad
+Warning: Top level port PWDATA<3> is not connected to any IO pad
+Warning: Top level port PWDATA<2> is not connected to any IO pad
+Warning: Top level port PWDATA<1> is not connected to any IO pad
+Warning: Top level port PWDATA<0> is not connected to any IO pad
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        11
+
+    Total macros optimized  11
+
+There were 0 error(s) and 68 warning(s) in this design.
+=====================================================================
+Compile report:
+===============
+
+    Microcontroller Subsystem  Used:      0  Total:      1   (0.00%)
+    Fabric                     Used:    150  Total:   4608   (3.26%)
+    Fabric IO (W/ clocks)      Used:     37  Total:     94   (39.36%)
+    Fabric Differential IO     Used:      0  Total:     47   (0.00%)
+    Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
+    Dedicated MSS IO           Used:      0  Total:     43   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     15   (6.67%)
+    MSS GLOBAL                 Used:      0  Total:      3   (0.00%)
+    On-chip RC oscillator      Used:      0  Total:      1   (0.00%)
+    Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
+    32 KHz Crystal oscillator  Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 1      | 3  (33.33%)*
+    Quadrant global | 0      | 12 (0.00%)
+    MSS global      | 0      | 3  (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 103          | 103
+    SEQ     | 47           | 47
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 2             | 0            | 0
+    Output I/O                            | 35            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 2     | 35     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:  37 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    47      CLK_NET       Net   : PCLK_c
+                          Driver: PCLK_pad
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    14      INT_NET       Net   : N_50
+                          Driver: echo_1_RNITMMD_0
+    12      INT_NET       Net   : data_buffere
+                          Driver: data_buffer_RNIM68D3[8]
+    12      INT_NET       Net   : data_1_sqmuxa
+                          Driver: echo_1_RNITMMD
+    9       INT_NET       Net   : count7
+                          Driver: count_RNI3CP04[15]
+    8       INT_NET       Net   : count_2.U1.DWACT_FINC_E[0]
+                          Driver: count_2_I_10
+    7       INT_NET       Net   : count_2.U1.DWACT_FINC_E[6]
+                          Driver: count_2_I_30
+    6       INT_NET       Net   : count[0]
+                          Driver: count[0]
+    6       INT_NET       Net   : count[3]
+                          Driver: count[3]
+    6       INT_NET       Net   : count[6]
+                          Driver: count[6]
+    6       INT_NET       Net   : count[8]
+                          Driver: count[8]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    14      INT_NET       Net   : N_50
+                          Driver: echo_1_RNITMMD_0
+    12      INT_NET       Net   : data_buffere
+                          Driver: data_buffer_RNIM68D3[8]
+    12      INT_NET       Net   : data_1_sqmuxa
+                          Driver: echo_1_RNITMMD
+    9       INT_NET       Net   : count7
+                          Driver: count_RNI3CP04[15]
+    8       INT_NET       Net   : count_2.U1.DWACT_FINC_E[0]
+                          Driver: count_2_I_10
+    7       INT_NET       Net   : count_2.U1.DWACT_FINC_E[6]
+                          Driver: count_2_I_30
+    6       INT_NET       Net   : count[0]
+                          Driver: count[0]
+    6       INT_NET       Net   : count[3]
+                          Driver: count[3]
+    6       INT_NET       Net   : count[6]
+                          Driver: count[6]
+    6       INT_NET       Net   : count[8]
+                          Driver: count[8]
+
+

@@ -1,0 +1,9 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\project\distance\component\work\distance_mss_mss\mss_ccc_0\distance_mss_mss_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO231 :"c:\users\mtstacho\desktop\project\distance\hdl\sensing.v":76:4:76:9|Found counter in view:work.DistanceSensor(verilog) instance data_buffer[31:0] 
+@N: MF238 :"c:\users\mtstacho\desktop\project\distance\hdl\sensing.v":60:21:60:30|Found 17-bit incrementor, 'count_2[16:0]'
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

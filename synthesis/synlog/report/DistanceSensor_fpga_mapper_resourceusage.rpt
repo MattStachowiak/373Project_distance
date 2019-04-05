@@ -1,0 +1,49 @@
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell DistanceSensor.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2     5      1.0        5.0
+              AND3    24      1.0       24.0
+               AO1     3      1.0        3.0
+              AO1A     1      1.0        1.0
+              AO1B     1      1.0        1.0
+              AO1C     3      1.0        3.0
+             AOI1B     1      1.0        1.0
+               AX1     1      1.0        1.0
+               GND     1      0.0        0.0
+              NOR2     4      1.0        4.0
+             NOR2A     4      1.0        4.0
+             NOR2B    22      1.0       22.0
+             NOR3C     4      1.0        4.0
+               OR2     4      1.0        4.0
+              OR2A     1      1.0        1.0
+              OR2B     1      1.0        1.0
+               OR3     4      1.0        4.0
+              OR3B     1      1.0        1.0
+              OR3C     1      1.0        1.0
+               VCC     1      0.0        0.0
+              XA1B    10      1.0       10.0
+              XOR2    19      1.0       19.0
+
+
+              DFN1    23      1.0       23.0
+            DFN1E1    24      1.0       24.0
+                   -----          ----------
+             TOTAL   163               161.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    35
+                   -----
+             TOTAL    37
+
+
+Core Cells         : 161 of 4608 (3%)
+IO Cells           : 37
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+

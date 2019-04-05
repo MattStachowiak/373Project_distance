@@ -1,0 +1,496 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "DistanceSensor")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "DistanceSensor")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNIKPNL\[2\]/A  data_buffer_RNIKPNL\[2\]/Y  data_buffer_RNIIPVS\[3\]/A  data_buffer_RNIIPVS\[3\]/Y  data_buffer_RNIHQ741\[4\]/A  data_buffer_RNIHQ741\[4\]/Y  data_buffer_RNIHSFB1\[5\]/A  data_buffer_RNIHSFB1\[5\]/Y  data_buffer_RNO_0\[7\]/A  data_buffer_RNO_0\[7\]/Y  data_buffer_RNO\[7\]/A  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[0\]/CLK  data_buffer\[0\]/Q  data_buffer_RNINQFE\[0\]/A  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNIKPNL\[2\]/A  data_buffer_RNIKPNL\[2\]/Y  data_buffer_RNIIPVS\[3\]/A  data_buffer_RNIIPVS\[3\]/Y  data_buffer_RNIHQ741\[4\]/A  data_buffer_RNIHQ741\[4\]/Y  data_buffer_RNIHSFB1\[5\]/A  data_buffer_RNIHSFB1\[5\]/Y  data_buffer_RNO_0\[7\]/A  data_buffer_RNO_0\[7\]/Y  data_buffer_RNO\[7\]/A  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_2_I_10/A  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_2_I_10/A  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_45/A  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_2_I_10/A  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_48/A  count_2_I_48/Y  count_2_I_49/A  count_2_I_49/Y  count_RNO\[17\]/B  count_RNO\[17\]/Y  count\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNILSVS\[2\]/C  data_buffer_RNILSVS\[2\]/Y  data_buffer_RNIK30Q1\[2\]/A  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_2_I_10/C  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_18/A  count_2_I_18/Y  count_2_I_30/B  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_2_I_18/B  count_2_I_18/Y  count_2_I_30/B  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[3\]/CLK  data_buffer\[3\]/Q  data_buffer_RNIT0GE\[3\]/B  data_buffer_RNIT0GE\[3\]/Y  data_buffer_RNIV60T\[7\]/C  data_buffer_RNIV60T\[7\]/Y  data_buffer_RNIK30Q1\[2\]/B  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_2_I_18/C  count_2_I_18/Y  count_2_I_30/B  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[4\]/CLK  data_buffer\[4\]/Q  data_buffer_RNIT0GE\[3\]/A  data_buffer_RNIT0GE\[3\]/Y  data_buffer_RNIV60T\[7\]/C  data_buffer_RNIV60T\[7\]/Y  data_buffer_RNIK30Q1\[2\]/B  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNILSVS\[2\]/C  data_buffer_RNILSVS\[2\]/Y  data_buffer_RNIK30Q1\[2\]/A  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO\[10\]/A  data_buffer_RNO\[10\]/Y  data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNIKPNL\[2\]/A  data_buffer_RNIKPNL\[2\]/Y  data_buffer_RNIIPVS\[3\]/A  data_buffer_RNIIPVS\[3\]/Y  data_buffer_RNIHQ741\[4\]/A  data_buffer_RNIHQ741\[4\]/Y  data_buffer_RNIHSFB1\[5\]/A  data_buffer_RNIHSFB1\[5\]/Y  data_buffer_RNO\[6\]/A  data_buffer_RNO\[6\]/Y  data_buffer\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_34/B  count_2_I_34/Y  count_2_I_35/A  count_2_I_35/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[0\]/A  count_RNO\[0\]/Y  count\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_33/A  count_2_I_33/Y  count_2_I_44/A  count_2_I_44/Y  count_2_I_45/B  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_33/A  count_2_I_33/Y  count_2_I_44/A  count_2_I_44/Y  count_2_I_52/B  count_2_I_52/Y  count_2_I_53/A  count_2_I_53/Y  count_RNO\[18\]/B  count_RNO\[18\]/Y  count\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_36/A  count_2_I_36/Y  count_2_I_37/A  count_2_I_37/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_31/A  count_2_I_31/Y  count_2_I_32/A  count_2_I_32/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_30/A  count_2_I_30/Y  count_2_I_42/A  count_2_I_42/Y  count_2_I_43/A  count_2_I_43/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[9\]/A  count_RNO\[9\]/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[14\]/A  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[16\]/A  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[17\]/A  count_RNO\[17\]/Y  count\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[18\]/A  count_RNO\[18\]/Y  count\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[19\]/A  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_RNIF2L3\[7\]/B  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  count_RNO\[6\]/A  count_RNO\[6\]/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_RNI559O\[11\]/B  count_RNI559O\[11\]/Y  count_RNIEEIG1\[13\]/C  count_RNIEEIG1\[13\]/Y  count_RNIMD142\[14\]/A  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[8\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[7\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[6\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[5\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[4\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[3\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[2\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[1\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[0\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_2_I_33/B  count_2_I_33/Y  count_2_I_44/A  count_2_I_44/Y  count_2_I_45/B  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_RNIF2L3\[7\]/A  count_RNIF2L3\[7\]/Y  count_RNI29A7\[8\]/B  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_2_I_29/C  count_2_I_29/Y  count_2_I_30/C  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_24/A  count_2_I_24/Y  count_2_I_25/B  count_2_I_25/Y  count_2_I_26/A  count_2_I_26/Y  count_RNO\[9\]/B  count_RNO\[9\]/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_51/A  count_2_I_51/Y  count_2_I_52/A  count_2_I_52/Y  count_2_I_53/A  count_2_I_53/Y  count_RNO\[18\]/B  count_RNO\[18\]/Y  count\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_51/A  count_2_I_51/Y  count_2_I_55/A  count_2_I_55/Y  count_2_I_56/A  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[2\]/CLK  data_buffer\[2\]/Q  data_buffer_RNIKPNL\[2\]/B  data_buffer_RNIKPNL\[2\]/Y  data_buffer_RNIIPVS\[3\]/A  data_buffer_RNIIPVS\[3\]/Y  data_buffer_RNIHQ741\[4\]/A  data_buffer_RNIHQ741\[4\]/Y  data_buffer_RNIHSFB1\[5\]/A  data_buffer_RNIHSFB1\[5\]/Y  data_buffer_RNO_0\[7\]/A  data_buffer_RNO_0\[7\]/Y  data_buffer_RNO\[7\]/A  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_18/A  count_2_I_18/Y  count_2_I_24/B  count_2_I_24/Y  count_2_I_25/B  count_2_I_25/Y  count_2_I_26/A  count_2_I_26/Y  count_RNO\[9\]/B  count_RNO\[9\]/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_2_I_33/C  count_2_I_33/Y  count_2_I_44/A  count_2_I_44/Y  count_2_I_45/B  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_RNI29A7\[8\]/C  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_33/A  count_2_I_33/Y  count_2_I_54/A  count_2_I_54/Y  count_2_I_55/B  count_2_I_55/Y  count_2_I_56/A  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_2_I_29/A  count_2_I_29/Y  count_2_I_30/C  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_2_I_29/B  count_2_I_29/Y  count_2_I_30/C  count_2_I_30/Y  count_2_I_39/A  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[3\]/CLK  data_buffer\[3\]/Q  data_buffer_RNINSNL\[1\]/C  data_buffer_RNINSNL\[1\]/Y  data_buffer_RNIMV741\[4\]/B  data_buffer_RNIMV741\[4\]/Y  data_buffer_RNISB0Q1\[8\]/B  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_buffer\[3\]/CLK  data_buffer\[3\]/Q  data_buffer_RNINSNL\[1\]/C  data_buffer_RNINSNL\[1\]/Y  data_buffer_RNIMV741\[4\]/B  data_buffer_RNIMV741\[4\]/Y  data_buffer_RNISB0Q1\[8\]/B  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[10\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_buffer\[3\]/CLK  data_buffer\[3\]/Q  data_buffer_RNINSNL\[1\]/C  data_buffer_RNINSNL\[1\]/Y  data_buffer_RNIMV741\[4\]/B  data_buffer_RNIMV741\[4\]/Y  data_buffer_RNISB0Q1\[8\]/B  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[9\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_18/A  count_2_I_18/Y  count_2_I_51/B  count_2_I_51/Y  count_2_I_52/A  count_2_I_52/Y  count_2_I_53/A  count_2_I_53/Y  count_RNO\[18\]/B  count_RNO\[18\]/Y  count\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_2_I_41/C  count_2_I_41/Y  count_2_I_44/B  count_2_I_44/Y  count_2_I_45/B  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[7\]/CLK  data_buffer\[7\]/Q  data_buffer_RNIV60T\[7\]/B  data_buffer_RNIV60T\[7\]/Y  data_buffer_RNIK30Q1\[2\]/B  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_RNI559O\[11\]/A  count_RNI559O\[11\]/Y  count_RNIEEIG1\[13\]/C  count_RNIEEIG1\[13\]/Y  count_RNIMD142\[14\]/A  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  count_2_I_41/B  count_2_I_41/Y  count_2_I_44/B  count_2_I_44/Y  count_2_I_45/B  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[2\]/CLK  data_buffer\[2\]/Q  data_buffer_RNILSVS\[2\]/B  data_buffer_RNILSVS\[2\]/Y  data_buffer_RNIK30Q1\[2\]/A  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[5\]/CLK  data_buffer\[5\]/Q  data_buffer_RNIV60T\[7\]/A  data_buffer_RNIV60T\[7\]/Y  data_buffer_RNIK30Q1\[2\]/B  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINSNL\[1\]/B  data_buffer_RNINSNL\[1\]/Y  data_buffer_RNIMV741\[4\]/B  data_buffer_RNIMV741\[4\]/Y  data_buffer_RNISB0Q1\[8\]/B  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_2_I_41/A  count_2_I_41/Y  count_2_I_44/B  count_2_I_44/Y  count_2_I_45/B  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[2\]/CLK  data_buffer\[2\]/Q  data_buffer_RNINSNL\[1\]/A  data_buffer_RNINSNL\[1\]/Y  data_buffer_RNIMV741\[4\]/B  data_buffer_RNIMV741\[4\]/Y  data_buffer_RNISB0Q1\[8\]/B  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_RNI559O\[11\]/B  count_RNI559O\[11\]/Y  count_RNIEEIG1\[13\]/C  count_RNIEEIG1\[13\]/Y  trigger_RNO_4/C  trigger_RNO_4/Y  trigger_RNO_0/C  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[16\]/CLK  count\[16\]/Q  count_RNIHH9O\[17\]/B  count_RNIHH9O\[17\]/Y  count_RNI67JG1\[18\]/C  count_RNI67JG1\[18\]/Y  count_RNI3CP04\[15\]/C  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNILSVS\[2\]/C  data_buffer_RNILSVS\[2\]/Y  data_buffer_RNIK30Q1\[2\]/A  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNO\[9\]/A  data_buffer_RNO\[9\]/Y  data_buffer\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_RNI29A7\[8\]/A  count_RNI29A7\[8\]/Y  count_RNIMD142\[14\]/B  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[6\]/CLK  data_buffer\[6\]/Q  data_buffer_RNILSVS\[2\]/A  data_buffer_RNILSVS\[2\]/Y  data_buffer_RNIK30Q1\[2\]/A  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNIN8812\[8\]/A  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNIKPNL\[2\]/A  data_buffer_RNIKPNL\[2\]/Y  data_buffer_RNIIPVS\[3\]/A  data_buffer_RNIIPVS\[3\]/Y  data_buffer_RNIHQ741\[4\]/A  data_buffer_RNIHQ741\[4\]/Y  data_buffer_RNO\[5\]/A  data_buffer_RNO\[5\]/Y  data_buffer\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[17\]/CLK  count\[17\]/Q  count_RNIHH9O\[17\]/A  count_RNIHH9O\[17\]/Y  count_RNI67JG1\[18\]/C  count_RNI67JG1\[18\]/Y  count_RNI3CP04\[15\]/C  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  count_RNIEEIG1\[13\]/B  count_RNIEEIG1\[13\]/Y  count_RNIMD142\[14\]/A  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_1/CLK  echo_1/Q  echo_1_RNITMMD_0/B  echo_1_RNITMMD_0/Y  data_buffer_RNIA6RS\[11\]/B  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  trigger_RNO_9/B  trigger_RNO_9/Y  trigger_RNO_7/C  trigger_RNO_7/Y  trigger_RNO_4/A  trigger_RNO_4/Y  trigger_RNO_0/C  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_2_I_41/C  count_2_I_41/Y  count_2_I_54/B  count_2_I_54/Y  count_2_I_55/B  count_2_I_55/Y  count_2_I_56/A  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_24/A  count_2_I_24/Y  count_2_I_27/A  count_2_I_27/Y  count_2_I_28/A  count_2_I_28/Y  count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[3\]/CLK  data_buffer\[3\]/Q  data_buffer_RNIIPVS\[3\]/B  data_buffer_RNIIPVS\[3\]/Y  data_buffer_RNIHQ741\[4\]/A  data_buffer_RNIHQ741\[4\]/Y  data_buffer_RNIHSFB1\[5\]/A  data_buffer_RNIHSFB1\[5\]/Y  data_buffer_RNO_0\[7\]/A  data_buffer_RNO_0\[7\]/Y  data_buffer_RNO\[7\]/A  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_RNIEEIG1\[13\]/A  count_RNIEEIG1\[13\]/Y  count_RNIMD142\[14\]/A  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_16/A  count_2_I_16/Y  count_2_I_17/A  count_2_I_17/Y  count_RNO\[6\]/B  count_RNO\[6\]/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_33/A  count_2_I_33/Y  count_2_I_39/B  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_2_I_29/C  count_2_I_29/Y  count_2_I_51/C  count_2_I_51/Y  count_2_I_52/A  count_2_I_52/Y  count_2_I_53/A  count_2_I_53/Y  count_RNO\[18\]/B  count_RNO\[18\]/Y  count\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[17\]/CLK  count\[17\]/Q  trigger_RNO_9/A  trigger_RNO_9/Y  trigger_RNO_7/C  trigger_RNO_7/Y  trigger_RNO_4/A  trigger_RNO_4/Y  trigger_RNO_0/C  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_2_I_50/A  count_2_I_50/Y  count_2_I_54/C  count_2_I_54/Y  count_2_I_55/B  count_2_I_55/Y  count_2_I_56/A  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO_1\[11\]/B  data_buffer_RNO_1\[11\]/Y  data_buffer_RNO_0\[11\]/A  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_2_I_21/A  count_2_I_21/Y  count_2_I_24/C  count_2_I_24/Y  count_2_I_25/B  count_2_I_25/Y  count_2_I_26/A  count_2_I_26/Y  count_RNO\[9\]/B  count_RNO\[9\]/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[5\]/CLK  data_buffer\[5\]/Q  data_buffer_RNIMV741\[4\]/C  data_buffer_RNIMV741\[4\]/Y  data_buffer_RNISB0Q1\[8\]/B  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_2_I_21/B  count_2_I_21/Y  count_2_I_24/C  count_2_I_24/Y  count_2_I_25/B  count_2_I_25/Y  count_2_I_26/A  count_2_I_26/Y  count_RNO\[9\]/B  count_RNO\[9\]/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[16\]/CLK  count\[16\]/Q  count_2_I_50/B  count_2_I_50/Y  count_2_I_54/C  count_2_I_54/Y  count_2_I_55/B  count_2_I_55/Y  count_2_I_56/A  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_RNIMD142\[14\]/C  count_RNIMD142\[14\]/Y  count_RNI3CP04\[15\]/B  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[17\]/CLK  count\[17\]/Q  count_2_I_50/C  count_2_I_50/Y  count_2_I_54/C  count_2_I_54/Y  count_2_I_55/B  count_2_I_55/Y  count_2_I_56/A  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNILSVS\[2\]/C  data_buffer_RNILSVS\[2\]/Y  data_buffer_RNIK30Q1\[2\]/A  data_buffer_RNIK30Q1\[2\]/Y  data_buffer_RNO\[8\]/A  data_buffer_RNO\[8\]/Y  data_buffer\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  trigger_RNO_8/B  trigger_RNO_8/Y  trigger_RNO_4/B  trigger_RNO_4/Y  trigger_RNO_0/C  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNIKPNL\[2\]/A  data_buffer_RNIKPNL\[2\]/Y  data_buffer_RNIIPVS\[3\]/A  data_buffer_RNIIPVS\[3\]/Y  data_buffer_RNO\[4\]/A  data_buffer_RNO\[4\]/Y  data_buffer\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[4\]/CLK  data_buffer\[4\]/Q  data_buffer_RNIMV741\[4\]/A  data_buffer_RNIMV741\[4\]/Y  data_buffer_RNISB0Q1\[8\]/B  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[19\]/CLK  count\[19\]/Q  count_RNI67JG1\[18\]/B  count_RNI67JG1\[18\]/Y  count_RNI3CP04\[15\]/C  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[6\]/CLK  data_buffer\[6\]/Q  data_buffer_RNI37GE\[7\]/B  data_buffer_RNI37GE\[7\]/Y  data_buffer_RNISB0Q1\[8\]/A  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[18\]/CLK  count\[18\]/Q  count_RNI67JG1\[18\]/A  count_RNI67JG1\[18\]/Y  count_RNI3CP04\[15\]/C  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_11/B  count_2_I_11/Y  count_2_I_12/A  count_2_I_12/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  trigger_RNO_6/C  trigger_RNO_6/Y  trigger_RNO_3/A  trigger_RNO_3/Y  trigger_RNO_0/B  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[7\]/CLK  data_buffer\[7\]/Q  data_buffer_RNI37GE\[7\]/A  data_buffer_RNI37GE\[7\]/Y  data_buffer_RNISB0Q1\[8\]/A  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  trigger_RNO_5/C  trigger_RNO_5/Y  trigger_RNO_2/C  trigger_RNO_2/Y  trigger_RNO_0/A  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[16\]/CLK  count\[16\]/Q  trigger_RNO_8/A  trigger_RNO_8/Y  trigger_RNO_4/B  trigger_RNO_4/Y  trigger_RNO_0/C  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  trigger_RNO_6/B  trigger_RNO_6/Y  trigger_RNO_3/A  trigger_RNO_3/Y  trigger_RNO_0/B  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[4\]/CLK  data_buffer\[4\]/Q  data_buffer_RNIHQ741\[4\]/B  data_buffer_RNIHQ741\[4\]/Y  data_buffer_RNIHSFB1\[5\]/A  data_buffer_RNIHSFB1\[5\]/Y  data_buffer_RNO_0\[7\]/A  data_buffer_RNO_0\[7\]/Y  data_buffer_RNO\[7\]/A  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_13/A  count_2_I_13/Y  count_2_I_14/A  count_2_I_14/Y  count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_19/A  count_2_I_19/Y  count_2_I_20/A  count_2_I_20/Y  count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_10/B  count_2_I_10/Y  count_2_I_22/A  count_2_I_22/Y  count_2_I_23/A  count_2_I_23/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  trigger_RNO_5/B  trigger_RNO_5/Y  trigger_RNO_2/C  trigger_RNO_2/Y  trigger_RNO_0/A  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_33/A  count_2_I_33/Y  count_2_I_36/B  count_2_I_36/Y  count_2_I_37/A  count_2_I_37/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_33/A  count_2_I_33/Y  count_2_I_42/B  count_2_I_42/Y  count_2_I_43/A  count_2_I_43/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[19\]/CLK  count\[19\]/Q  trigger_RNO_7/B  trigger_RNO_7/Y  trigger_RNO_4/A  trigger_RNO_4/Y  trigger_RNO_0/C  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  trigger_RNO_6/A  trigger_RNO_6/Y  trigger_RNO_3/A  trigger_RNO_3/Y  trigger_RNO_0/B  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_33/A  count_2_I_33/Y  count_2_I_34/A  count_2_I_34/Y  count_2_I_35/A  count_2_I_35/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_2_I_50/A  count_2_I_50/Y  count_2_I_52/C  count_2_I_52/Y  count_2_I_53/A  count_2_I_53/Y  count_RNO\[18\]/B  count_RNO\[18\]/Y  count\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_18/A  count_2_I_18/Y  count_2_I_22/B  count_2_I_22/Y  count_2_I_23/A  count_2_I_23/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_18/A  count_2_I_18/Y  count_2_I_19/B  count_2_I_19/Y  count_2_I_20/A  count_2_I_20/Y  count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_2_I_47/A  count_2_I_47/Y  count_2_I_48/C  count_2_I_48/Y  count_2_I_49/A  count_2_I_49/Y  count_RNO\[17\]/B  count_RNO\[17\]/Y  count\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  trigger_RNO_5/A  trigger_RNO_5/Y  trigger_RNO_2/C  trigger_RNO_2/Y  trigger_RNO_0/A  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_15/A  count_2_I_15/Y  count_2_I_16/B  count_2_I_16/Y  count_2_I_17/A  count_2_I_17/Y  count_RNO\[6\]/B  count_RNO\[6\]/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_2_I_15/B  count_2_I_15/Y  count_2_I_16/B  count_2_I_16/Y  count_2_I_17/A  count_2_I_17/Y  count_RNO\[6\]/B  count_RNO\[6\]/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[11\]/A  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[8\]/CLK  data_buffer\[8\]/Q  data_buffer_RNIN8812\[8\]/B  data_buffer_RNIN8812\[8\]/Y  data_buffer_RNIREG82\[9\]/A  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[18\]/CLK  count\[18\]/Q  trigger_RNO_7/A  trigger_RNO_7/Y  trigger_RNO_4/A  trigger_RNO_4/Y  trigger_RNO_0/C  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[8\]/CLK  data_buffer\[8\]/Q  data_buffer_RNISB0Q1\[8\]/C  data_buffer_RNISB0Q1\[8\]/Y  data_buffer_RNIM68D3\[8\]/B  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  count_2_I_38/B  count_2_I_38/Y  count_2_I_39/C  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_2_I_38/A  count_2_I_38/Y  count_2_I_39/C  count_2_I_39/Y  count_2_I_40/A  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[16\]/CLK  count\[16\]/Q  count_2_I_47/B  count_2_I_47/Y  count_2_I_48/C  count_2_I_48/Y  count_2_I_49/A  count_2_I_49/Y  count_RNO\[17\]/B  count_RNO\[17\]/Y  count\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[9\]/CLK  data_buffer\[9\]/Q  data_buffer_RNIGKCM\[9\]/B  data_buffer_RNIGKCM\[9\]/Y  data_buffer_RNIM68D3\[8\]/A  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_RNI3CP04\[15\]/A  count_RNI3CP04\[15\]/Y  trigger_RNO/B  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  trigger_RNO_3/B  trigger_RNO_3/Y  trigger_RNO_0/B  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNIKPNL\[2\]/A  data_buffer_RNIKPNL\[2\]/Y  data_buffer_RNO\[3\]/B  data_buffer_RNO\[3\]/Y  data_buffer\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[0\]/B  data_buffer_RNO\[0\]/Y  data_buffer\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_2_I_41/C  count_2_I_41/Y  count_2_I_42/C  count_2_I_42/Y  count_2_I_43/A  count_2_I_43/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[10\]/CLK  data_buffer\[10\]/Q  data_buffer_RNIGKCM\[9\]/A  data_buffer_RNIGKCM\[9\]/Y  data_buffer_RNIM68D3\[8\]/A  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  trigger_RNO_3/C  trigger_RNO_3/Y  trigger_RNO_0/B  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  trigger_RNO_2/B  trigger_RNO_2/Y  trigger_RNO_0/A  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[1\]/C  data_buffer_RNO\[1\]/Y  data_buffer\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[2\]/C  data_buffer_RNO\[2\]/Y  data_buffer\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[3\]/C  data_buffer_RNO\[3\]/Y  data_buffer\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[4\]/C  data_buffer_RNO\[4\]/Y  data_buffer\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[5\]/C  data_buffer_RNO\[5\]/Y  data_buffer\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[6\]/C  data_buffer_RNO\[6\]/Y  data_buffer\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[7\]/C  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[8\]/C  data_buffer_RNO\[8\]/Y  data_buffer\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[9\]/C  data_buffer_RNO\[9\]/Y  data_buffer\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD_0/A  echo_1_RNITMMD_0/Y  data_buffer_RNO\[10\]/C  data_buffer_RNO\[10\]/Y  data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[5\]/CLK  data_buffer\[5\]/Q  data_buffer_RNIHSFB1\[5\]/B  data_buffer_RNIHSFB1\[5\]/Y  data_buffer_RNO_0\[7\]/A  data_buffer_RNO_0\[7\]/Y  data_buffer_RNO\[7\]/A  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  trigger_RNO_2/A  trigger_RNO_2/Y  trigger_RNO_0/A  trigger_RNO_0/Y  trigger_RNO/A  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[11\]/CLK  data_buffer\[11\]/Q  data_buffer_RNIA6RS\[11\]/A  data_buffer_RNIA6RS\[11\]/Y  data_buffer_RNIM68D3\[8\]/C  data_buffer_RNIM68D3\[8\]/Y  data_buffer\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_2_I_45/C  count_2_I_45/Y  count_2_I_46/A  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_2_I_25/A  count_2_I_25/Y  count_2_I_26/A  count_2_I_26/Y  count_RNO\[9\]/B  count_RNO\[9\]/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[9\]/CLK  data_buffer\[9\]/Q  data_buffer_RNIREG82\[9\]/B  data_buffer_RNIREG82\[9\]/Y  data_buffer_RNO_0\[11\]/B  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_2_I_21/A  count_2_I_21/Y  count_2_I_22/C  count_2_I_22/Y  count_2_I_23/A  count_2_I_23/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_2_I_16/C  count_2_I_16/Y  count_2_I_17/A  count_2_I_17/Y  count_RNO\[6\]/B  count_RNO\[6\]/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[10\]/CLK  data_buffer\[10\]/Q  data_buffer_RNO_1\[11\]/A  data_buffer_RNO_1\[11\]/Y  data_buffer_RNO_0\[11\]/A  data_buffer_RNO_0\[11\]/Y  data_buffer_RNO\[11\]/C  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[18\]/CLK  count\[18\]/Q  count_2_I_55/C  count_2_I_55/Y  count_2_I_56/A  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNINQFE\[0\]/B  data_buffer_RNINQFE\[0\]/Y  data_buffer_RNO\[2\]/B  data_buffer_RNO\[2\]/Y  data_buffer\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_26/B  count_2_I_26/Y  count_RNO\[9\]/B  count_RNO\[9\]/Y  count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[6\]/CLK  data_buffer\[6\]/Q  data_buffer_RNO_0\[7\]/B  data_buffer_RNO_0\[7\]/Y  data_buffer_RNO\[7\]/A  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_2_I_17/B  count_2_I_17/Y  count_RNO\[6\]/B  count_RNO\[6\]/Y  count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[14\]/CLK  count\[14\]/Q  count_2_I_40/B  count_2_I_40/Y  count_RNO\[14\]/B  count_RNO\[14\]/Y  count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[16\]/CLK  count\[16\]/Q  count_2_I_46/B  count_2_I_46/Y  count_RNO\[16\]/B  count_RNO\[16\]/Y  count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_27/C  count_2_I_27/Y  count_2_I_28/A  count_2_I_28/Y  count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_13/B  count_2_I_13/Y  count_2_I_14/A  count_2_I_14/Y  count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[9\]/CLK  count\[9\]/Q  count_2_I_31/B  count_2_I_31/Y  count_2_I_32/A  count_2_I_32/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_2_I_27/B  count_2_I_27/Y  count_2_I_28/A  count_2_I_28/Y  count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[17\]/CLK  count\[17\]/Q  count_2_I_49/B  count_2_I_49/Y  count_RNO\[17\]/B  count_RNO\[17\]/Y  count\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[19\]/CLK  count\[19\]/Q  count_2_I_56/B  count_2_I_56/Y  count_RNO\[19\]/B  count_RNO\[19\]/Y  count\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[18\]/CLK  count\[18\]/Q  count_2_I_53/B  count_2_I_53/Y  count_RNO\[18\]/B  count_RNO\[18\]/Y  count\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[10\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[9\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[8\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[7\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[6\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[5\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[4\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[3\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[2\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[1\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1_RNITMMD/B  echo_1_RNITMMD/Y  data\[0\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_11/A  count_2_I_11/Y  count_2_I_12/A  count_2_I_12/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_2_I_13/C  count_2_I_13/Y  count_2_I_14/A  count_2_I_14/Y  count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_2_I_36/C  count_2_I_36/Y  count_2_I_37/A  count_2_I_37/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[6\]/CLK  count\[6\]/Q  count_2_I_19/C  count_2_I_19/Y  count_2_I_20/A  count_2_I_20/Y  count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_2_I_6/B  count_2_I_6/Y  count_2_I_7/A  count_2_I_7/Y  count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_8/B  count_2_I_8/Y  count_2_I_9/A  count_2_I_9/Y  count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_2_I_8/C  count_2_I_8/Y  count_2_I_9/A  count_2_I_9/Y  count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_2_I_31/C  count_2_I_31/Y  count_2_I_32/A  count_2_I_32/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_6/A  count_2_I_6/Y  count_2_I_7/A  count_2_I_7/Y  count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_1/CLK  echo_1/Q  echo_1_RNITMMD/A  echo_1_RNITMMD/Y  data\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_2_I_8/A  count_2_I_8/Y  count_2_I_9/A  count_2_I_9/Y  count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[3\]/CLK  count\[3\]/Q  count_2_I_9/B  count_2_I_9/Y  count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[8\]/CLK  count\[8\]/Q  count_2_I_23/B  count_2_I_23/Y  count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[15\]/CLK  count\[15\]/Q  count_2_I_43/B  count_2_I_43/Y  count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[19\]/CLK  count\[19\]/Q  trigger_RNO_1/A  trigger_RNO_1/Y  trigger_RNO/C  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[1\]/CLK  count\[1\]/Q  count_2_I_5/B  count_2_I_5/Y  count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[4\]/CLK  count\[4\]/Q  count_2_I_12/B  count_2_I_12/Y  count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[12\]/CLK  count\[12\]/Q  count_2_I_35/B  count_2_I_35/Y  count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[2\]/CLK  count\[2\]/Q  count_2_I_7/B  count_2_I_7/Y  count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[5\]/CLK  count\[5\]/Q  count_2_I_14/B  count_2_I_14/Y  count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[10\]/CLK  count\[10\]/Q  count_2_I_28/B  count_2_I_28/Y  count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[13\]/CLK  count\[13\]/Q  count_2_I_37/B  count_2_I_37/Y  count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[3\]/CLK  data_buffer\[3\]/Q  data_buffer_RNO\[3\]/A  data_buffer_RNO\[3\]/Y  data_buffer\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[2\]/CLK  data_buffer\[2\]/Q  data_buffer_RNO\[2\]/A  data_buffer_RNO\[2\]/Y  data_buffer\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[7\]/CLK  count\[7\]/Q  count_2_I_20/B  count_2_I_20/Y  count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data_buffer_RNO\[1\]/A  data_buffer_RNO\[1\]/Y  data_buffer\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[4\]/CLK  data_buffer\[4\]/Q  data_buffer_RNO\[4\]/B  data_buffer_RNO\[4\]/Y  data_buffer\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[5\]/CLK  data_buffer\[5\]/Q  data_buffer_RNO\[5\]/B  data_buffer_RNO\[5\]/Y  data_buffer\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[6\]/CLK  data_buffer\[6\]/Q  data_buffer_RNO\[6\]/B  data_buffer_RNO\[6\]/Y  data_buffer\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[0\]/CLK  data_buffer\[0\]/Q  data_buffer_RNO\[1\]/B  data_buffer_RNO\[1\]/Y  data_buffer\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[7\]/CLK  data_buffer\[7\]/Q  data_buffer_RNO\[7\]/B  data_buffer_RNO\[7\]/Y  data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[8\]/CLK  data_buffer\[8\]/Q  data_buffer_RNO\[8\]/B  data_buffer_RNO\[8\]/Y  data_buffer\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[9\]/CLK  data_buffer\[9\]/Q  data_buffer_RNO\[9\]/B  data_buffer_RNO\[9\]/Y  data_buffer\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[10\]/CLK  data_buffer\[10\]/Q  data_buffer_RNO\[10\]/B  data_buffer_RNO\[10\]/Y  data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT trigger/CLK  trigger/Q  trigger_RNO_1/B  trigger_RNO_1/Y  trigger_RNO/C  trigger_RNO/Y  trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_2_I_5/A  count_2_I_5/Y  count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[11\]/CLK  count\[11\]/Q  count_2_I_32/B  count_2_I_32/Y  count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[0\]/CLK  data_buffer\[0\]/Q  data_buffer_RNO\[0\]/A  data_buffer_RNO\[0\]/Y  data_buffer\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT count\[0\]/CLK  count\[0\]/Q  count_RNO\[0\]/B  count_RNO\[0\]/Y  count\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[11\]/CLK  data_buffer\[11\]/Q  data_buffer_RNO\[11\]/B  data_buffer_RNO\[11\]/Y  data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[3\]/CLK  data_buffer\[3\]/Q  data\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[4\]/CLK  data_buffer\[4\]/Q  data\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[2\]/CLK  data_buffer\[2\]/Q  data\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[5\]/CLK  data_buffer\[5\]/Q  data\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[6\]/CLK  data_buffer\[6\]/Q  data\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[1\]/CLK  data_buffer\[1\]/Q  data\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[0\]/CLK  data_buffer\[0\]/Q  data\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[7\]/CLK  data_buffer\[7\]/Q  data\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[8\]/CLK  data_buffer\[8\]/Q  data\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[9\]/CLK  data_buffer\[9\]/Q  data\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[10\]/CLK  data_buffer\[10\]/Q  data\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT echo_0/CLK  echo_0/Q  echo_1/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT data_buffer\[11\]/CLK  data_buffer\[11\]/Q  data\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT trigger/CLK  trigger/Q  trigger_pad/D  trigger_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

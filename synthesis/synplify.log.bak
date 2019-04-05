@@ -1,0 +1,110 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    EECS373-10
+Date:        Tue Apr 02 15:16:57 2019
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log DistanceSensor_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+
+log file: "C:\project\distance\synthesis\DistanceSensor.srr"
+
+Running: synthesis in foreground
+
+
+
+Running DistanceSensor_syn|synthesis
+
+
+Running: compile (Compile) on DistanceSensor_syn|synthesis
+# Tue Apr 02 15:16:57 2019
+
+
+Running: compile_flow (Compile Process) on DistanceSensor_syn|synthesis
+# Tue Apr 02 15:16:57 2019
+
+
+Running: compiler (Compile Input) on DistanceSensor_syn|synthesis
+# Tue Apr 02 15:16:57 2019
+
+Copied C:\project\distance\synthesis\synwork\DistanceSensor_comp.srs to C:\project\distance\synthesis\DistanceSensor.srs
+
+
+compiler completed
+# Tue Apr 02 15:16:58 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on DistanceSensor_syn|synthesis
+# Tue Apr 02 15:16:58 2019
+
+
+multi_srs_gen completed
+# Tue Apr 02 15:16:58 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\project\distance\synthesis\synwork\DistanceSensor_mult.srs to C:\project\distance\synthesis\DistanceSensor.srs
+
+Complete: Compile Process on DistanceSensor_syn|synthesis
+
+
+Running: premap (Pre-mapping) on DistanceSensor_syn|synthesis
+# Tue Apr 02 15:16:58 2019
+
+
+premap completed with warnings
+# Tue Apr 02 15:16:59 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Compile on DistanceSensor_syn|synthesis
+
+
+Running: map (Map) on DistanceSensor_syn|synthesis
+# Tue Apr 02 15:16:59 2019
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on DistanceSensor_syn|synthesis
+# Tue Apr 02 15:16:59 2019
+
+Copied C:\project\distance\synthesis\synwork\DistanceSensor_m.srm to C:\project\distance\synthesis\DistanceSensor.srm
+
+
+fpga_mapper completed with warnings
+# Tue Apr 02 15:17:00 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Map on DistanceSensor_syn|synthesis
+
+Complete: Logic Synthesis on DistanceSensor_syn|synthesis
+
+Copied C:\project\distance\synthesis\DistanceSensor.srr to C:\project\distance\synthesis\backup\DistanceSensor.srr
+
+TCL script complete: "DistanceSensor_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+

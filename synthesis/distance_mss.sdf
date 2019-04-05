@@ -1,0 +1,798 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "distance_mss")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 2172R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "distance_mss")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/C  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[1\]/CLK  DistanceSensor_0/data_buffer\[1\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/B  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/C  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[6\]/A  DistanceSensor_0/data_buffer_RNI94CN\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[10\]/A  DistanceSensor_0/data_buffer_RNO_0\[10\]/Y  DistanceSensor_0/data_buffer_RNO\[10\]/B  DistanceSensor_0/data_buffer_RNO\[10\]/Y  DistanceSensor_0/data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[8\]/A  DistanceSensor_0/data_buffer_RNO_0\[8\]/Y  DistanceSensor_0/data_buffer_RNO\[8\]/B  DistanceSensor_0/data_buffer_RNO\[8\]/Y  DistanceSensor_0/data_buffer\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[6\]/A  DistanceSensor_0/data_buffer_RNI94CN\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[11\]/A  DistanceSensor_0/data_buffer_RNO_0\[11\]/Y  DistanceSensor_0/data_buffer_RNO\[11\]/B  DistanceSensor_0/data_buffer_RNO\[11\]/Y  DistanceSensor_0/data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/A  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[3\]/CLK  DistanceSensor_0/data_buffer\[3\]/Q  DistanceSensor_0/data_buffer_RNIV465\[2\]/B  DistanceSensor_0/data_buffer_RNIV465\[2\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/A  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/C  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[2\]/CLK  DistanceSensor_0/data_buffer\[2\]/Q  DistanceSensor_0/data_buffer_RNIV465\[2\]/A  DistanceSensor_0/data_buffer_RNIV465\[2\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/A  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/C  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO\[7\]/B  DistanceSensor_0/data_buffer_RNO\[7\]/Y  DistanceSensor_0/data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[6\]/A  DistanceSensor_0/data_buffer_RNI94CN\[6\]/Y  DistanceSensor_0/data_buffer_RNO\[9\]/B  DistanceSensor_0/data_buffer_RNO\[9\]/Y  DistanceSensor_0/data_buffer\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNO_0\[15\]/A  DistanceSensor_0/data_buffer_RNO_0\[15\]/Y  DistanceSensor_0/data_buffer_RNO\[15\]/A  DistanceSensor_0/data_buffer_RNO\[15\]/Y  DistanceSensor_0/data_buffer\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/A  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO\[16\]/B  DistanceSensor_0/data_buffer_RNO\[16\]/Y  DistanceSensor_0/data_buffer\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/B  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/A  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/B  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNISQPQ\[21\]/A  DistanceSensor_0/data_buffer_RNISQPQ\[21\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/B  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/A  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNIFTOD\[17\]/C  DistanceSensor_0/data_buffer_RNIFTOD\[17\]/Y  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/C  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/A  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI8UQH2\[4\]/A  DistanceSensor_0/data_buffer_RNI8UQH2\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[21\]/A  DistanceSensor_0/data_buffer_RNO_0\[21\]/Y  DistanceSensor_0/data_buffer_RNO\[21\]/B  DistanceSensor_0/data_buffer_RNO\[21\]/Y  DistanceSensor_0/data_buffer\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[13\]/CLK  DistanceSensor_0/data_buffer\[13\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/A  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNO\[6\]/B  DistanceSensor_0/data_buffer_RNO\[6\]/Y  DistanceSensor_0/data_buffer\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/B  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/A  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO\[27\]/A  DistanceSensor_0/data_buffer_RNO\[27\]/Y  DistanceSensor_0/data_buffer\[27\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/B  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/A  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[26\]/B  DistanceSensor_0/data_buffer_RNO_0\[26\]/Y  DistanceSensor_0/data_buffer_RNO\[26\]/A  DistanceSensor_0/data_buffer_RNO\[26\]/Y  DistanceSensor_0/data_buffer\[26\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/B  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNISQPQ\[21\]/A  DistanceSensor_0/data_buffer_RNISQPQ\[21\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/B  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO\[22\]/A  DistanceSensor_0/data_buffer_RNO\[22\]/Y  DistanceSensor_0/data_buffer\[22\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[16\]/CLK  DistanceSensor_0/data_buffer\[16\]/Q  DistanceSensor_0/data_buffer_RNIFTOD\[17\]/A  DistanceSensor_0/data_buffer_RNIFTOD\[17\]/Y  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/C  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/A  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/B  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNI8UQH2\[4\]/B  DistanceSensor_0/data_buffer_RNI8UQH2\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[21\]/A  DistanceSensor_0/data_buffer_RNO_0\[21\]/Y  DistanceSensor_0/data_buffer_RNO\[21\]/B  DistanceSensor_0/data_buffer_RNO\[21\]/Y  DistanceSensor_0/data_buffer\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[17\]/CLK  DistanceSensor_0/data_buffer\[17\]/Q  DistanceSensor_0/data_buffer_RNIFTOD\[17\]/B  DistanceSensor_0/data_buffer_RNIFTOD\[17\]/Y  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/C  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/A  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/C  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[24\]/C  DistanceSensor_0/data_buffer_RNO_0\[24\]/Y  DistanceSensor_0/data_buffer_RNO\[24\]/A  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[26\]/A  DistanceSensor_0/data_buffer_RNO_0\[26\]/Y  DistanceSensor_0/data_buffer_RNO\[26\]/A  DistanceSensor_0/data_buffer_RNO\[26\]/Y  DistanceSensor_0/data_buffer\[26\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[25\]/C  DistanceSensor_0/data_buffer_RNO_0\[25\]/Y  DistanceSensor_0/data_buffer_RNO\[25\]/A  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/C  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[4\]/CLK  DistanceSensor_0/data_buffer\[4\]/Q  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/B  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[5\]/A  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/C  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data_buffer_RNII0PD\[19\]/C  DistanceSensor_0/data_buffer_RNII0PD\[19\]/Y  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/C  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/A  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[25\]/A  DistanceSensor_0/data_buffer_RNO_0\[25\]/Y  DistanceSensor_0/data_buffer_RNO\[25\]/A  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/A  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI8UQH2\[4\]/A  DistanceSensor_0/data_buffer_RNI8UQH2\[4\]/Y  DistanceSensor_0/data_buffer_RNO\[20\]/B  DistanceSensor_0/data_buffer_RNO\[20\]/Y  DistanceSensor_0/data_buffer\[20\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[11\]/CLK  DistanceSensor_0/data_buffer\[11\]/Q  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/B  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/A  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[15\]/CLK  DistanceSensor_0/data_buffer\[15\]/Q  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/B  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/C  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[14\]/CLK  DistanceSensor_0/data_buffer\[14\]/Q  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/A  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/A  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[10\]/CLK  DistanceSensor_0/data_buffer\[10\]/Q  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/A  DistanceSensor_0/data_buffer_RNIC5UO\[10\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/A  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/B  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/A  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/C  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/B  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[21\]/CLK  DistanceSensor_0/data_buffer\[21\]/Q  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/B  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/C  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/B  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[18\]/CLK  DistanceSensor_0/data_buffer\[18\]/Q  DistanceSensor_0/data_buffer_RNII0PD\[19\]/A  DistanceSensor_0/data_buffer_RNII0PD\[19\]/Y  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/C  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/A  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNI3965\[4\]/B  DistanceSensor_0/data_buffer_RNI3965\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/A  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/A  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[24\]/CLK  DistanceSensor_0/data_buffer\[24\]/Q  DistanceSensor_0/data_buffer_RNI7K7B\[25\]/B  DistanceSensor_0/data_buffer_RNI7K7B\[25\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/B  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/B  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[22\]/CLK  DistanceSensor_0/data_buffer\[22\]/Q  DistanceSensor_0/data_buffer_RNI3G7B\[22\]/B  DistanceSensor_0/data_buffer_RNI3G7B\[22\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/A  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/B  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[19\]/CLK  DistanceSensor_0/data_buffer\[19\]/Q  DistanceSensor_0/data_buffer_RNII0PD\[19\]/B  DistanceSensor_0/data_buffer_RNII0PD\[19\]/Y  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/C  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/A  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[23\]/CLK  DistanceSensor_0/data_buffer\[23\]/Q  DistanceSensor_0/data_buffer_RNI3G7B\[22\]/A  DistanceSensor_0/data_buffer_RNI3G7B\[22\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/A  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/B  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[0\]/CLK  DistanceSensor_0/count\[0\]/Q  DistanceSensor_0/count_2_I_10/A  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[0\]/CLK  DistanceSensor_0/count\[0\]/Q  DistanceSensor_0/count_2_I_10/A  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_45/A  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/B  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/A  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[2\]/CLK  DistanceSensor_0/count\[2\]/Q  DistanceSensor_0/count_2_I_10/C  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[4\]/CLK  DistanceSensor_0/data_buffer\[4\]/Q  DistanceSensor_0/data_buffer_RNI3965\[4\]/A  DistanceSensor_0/data_buffer_RNI3965\[4\]/Y  DistanceSensor_0/data_buffer_RNITEIF\[4\]/A  DistanceSensor_0/data_buffer_RNITEIF\[4\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/A  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_2_I_18/C  DistanceSensor_0/count_2_I_18/Y  DistanceSensor_0/count_2_I_30/B  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/A  DistanceSensor_0/data_buffer_RNIPDVI\[6\]/Y  DistanceSensor_0/data_buffer_RNIBF822\[6\]/A  DistanceSensor_0/data_buffer_RNIBF822\[6\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/A  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_18/A  DistanceSensor_0/count_2_I_18/Y  DistanceSensor_0/count_2_I_30/B  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[4\]/CLK  DistanceSensor_0/count\[4\]/Q  DistanceSensor_0/count_2_I_18/B  DistanceSensor_0/count_2_I_18/Y  DistanceSensor_0/count_2_I_30/B  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/A  DistanceSensor_0/data_buffer_RNIR9VC\[4\]/Y  DistanceSensor_0/data_buffer_RNO\[5\]/B  DistanceSensor_0/data_buffer_RNO\[5\]/Y  DistanceSensor_0/data_buffer\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNIKS58\[10\]/A  DistanceSensor_0/data_buffer_RNIKS58\[10\]/Y  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/C  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/C  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[25\]/CLK  DistanceSensor_0/data_buffer\[25\]/Q  DistanceSensor_0/data_buffer_RNI7K7B\[25\]/A  DistanceSensor_0/data_buffer_RNI7K7B\[25\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/B  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/B  DistanceSensor_0/data_buffer_RNI6V8H1\[4\]/Y  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/B  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[10\]/CLK  DistanceSensor_0/data_buffer\[10\]/Q  DistanceSensor_0/data_buffer_RNIKS58\[10\]/B  DistanceSensor_0/data_buffer_RNIKS58\[10\]/Y  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/C  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/C  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[6\]/CLK  DistanceSensor_0/count\[6\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/B  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/count_RNO\[0\]/B  DistanceSensor_0/count_RNO\[0\]/Y  DistanceSensor_0/count\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIT5P7\[5\]/B  DistanceSensor_0/data_buffer_RNIT5P7\[5\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[4\]/A  DistanceSensor_0/data_buffer_RNI94CN\[4\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/A  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[19\]/A  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/count_RNO\[7\]/B  DistanceSensor_0/count_RNO\[7\]/Y  DistanceSensor_0/count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/count_RNO\[9\]/B  DistanceSensor_0/count_RNO\[9\]/Y  DistanceSensor_0/count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/count_RNO\[10\]/B  DistanceSensor_0/count_RNO\[10\]/Y  DistanceSensor_0/count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/count_RNO\[15\]/B  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/count_RNO\[16\]/B  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/A  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/count_RNO\[5\]/B  DistanceSensor_0/count_RNO\[5\]/Y  DistanceSensor_0/count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/A  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/C  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNO_1\[30\]/C  DistanceSensor_0/data_buffer_RNO_1\[30\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/B  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/B  DistanceSensor_0/data_buffer_RNI1C5B\[13\]/Y  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/C  DistanceSensor_0/data_buffer_RNI6SAM\[14\]/Y  DistanceSensor_0/data_buffer_RNII19F1\[10\]/B  DistanceSensor_0/data_buffer_RNII19F1\[10\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/B  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[19\]/A  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_34/B  DistanceSensor_0/count_2_I_34/Y  DistanceSensor_0/count_2_I_35/A  DistanceSensor_0/count_2_I_35/Y  DistanceSensor_0/count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/A  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/C  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNO_1\[29\]/C  DistanceSensor_0/data_buffer_RNO_1\[29\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/A  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNITEIF\[5\]/B  DistanceSensor_0/data_buffer_RNITEIF\[5\]/Y  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/A  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/C  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_36/A  DistanceSensor_0/count_2_I_36/Y  DistanceSensor_0/count_2_I_37/A  DistanceSensor_0/count_2_I_37/Y  DistanceSensor_0/count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_39/A  DistanceSensor_0/count_2_I_39/Y  DistanceSensor_0/count_2_I_40/A  DistanceSensor_0/count_2_I_40/Y  DistanceSensor_0/count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_30/A  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_31/A  DistanceSensor_0/count_2_I_31/Y  DistanceSensor_0/count_2_I_32/A  DistanceSensor_0/count_2_I_32/Y  DistanceSensor_0/count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[7\]/CLK  DistanceSensor_0/count\[7\]/Q  DistanceSensor_0/count_RNIBNN01\[5\]/C  DistanceSensor_0/count_RNIBNN01\[5\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/A  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[8\]/CLK  DistanceSensor_0/count\[8\]/Q  DistanceSensor_0/count_2_I_29/C  DistanceSensor_0/count_2_I_29/Y  DistanceSensor_0/count_2_I_30/C  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_24/A  DistanceSensor_0/count_2_I_24/Y  DistanceSensor_0/count_2_I_25/B  DistanceSensor_0/count_2_I_25/Y  DistanceSensor_0/count_2_I_26/A  DistanceSensor_0/count_2_I_26/Y  DistanceSensor_0/count_RNO\[9\]/A  DistanceSensor_0/count_RNO\[9\]/Y  DistanceSensor_0/count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNIKS58\[10\]/A  DistanceSensor_0/data_buffer_RNIKS58\[10\]/Y  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/C  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/C  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNO_0\[15\]/B  DistanceSensor_0/data_buffer_RNO_0\[15\]/Y  DistanceSensor_0/data_buffer_RNO\[15\]/A  DistanceSensor_0/data_buffer_RNO\[15\]/Y  DistanceSensor_0/data_buffer\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_24/A  DistanceSensor_0/count_2_I_24/Y  DistanceSensor_0/count_2_I_27/A  DistanceSensor_0/count_2_I_27/Y  DistanceSensor_0/count_2_I_28/A  DistanceSensor_0/count_2_I_28/Y  DistanceSensor_0/count_RNO\[10\]/A  DistanceSensor_0/count_RNO\[10\]/Y  DistanceSensor_0/count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/B  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[3\]/CLK  DistanceSensor_0/data_buffer\[3\]/Q  DistanceSensor_0/data_buffer_RNIV465\[2\]/B  DistanceSensor_0/data_buffer_RNIV465\[2\]/Y  DistanceSensor_0/data_buffer_RNI3FCA\[4\]/C  DistanceSensor_0/data_buffer_RNI3FCA\[4\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[4\]/C  DistanceSensor_0/data_buffer_RNI94CN\[4\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/A  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[19\]/A  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/A  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/Y  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/C  DistanceSensor_0/data_buffer_RNI9GM11\[22\]/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/B  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_18/A  DistanceSensor_0/count_2_I_18/Y  DistanceSensor_0/count_2_I_24/B  DistanceSensor_0/count_2_I_24/Y  DistanceSensor_0/count_2_I_25/B  DistanceSensor_0/count_2_I_25/Y  DistanceSensor_0/count_2_I_26/A  DistanceSensor_0/count_2_I_26/Y  DistanceSensor_0/count_RNO\[9\]/A  DistanceSensor_0/count_RNO\[9\]/Y  DistanceSensor_0/count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data_buffer_RNI9F65\[8\]/B  DistanceSensor_0/data_buffer_RNI9F65\[8\]/Y  DistanceSensor_0/data_buffer_RNICLP7\[6\]/B  DistanceSensor_0/data_buffer_RNICLP7\[6\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[6\]/B  DistanceSensor_0/data_buffer_RNI94CN\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[10\]/A  DistanceSensor_0/data_buffer_RNO_0\[10\]/Y  DistanceSensor_0/data_buffer_RNO\[10\]/B  DistanceSensor_0/data_buffer_RNO\[10\]/Y  DistanceSensor_0/data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data_buffer_RNI9F65\[8\]/A  DistanceSensor_0/data_buffer_RNI9F65\[8\]/Y  DistanceSensor_0/data_buffer_RNICLP7\[6\]/B  DistanceSensor_0/data_buffer_RNICLP7\[6\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[6\]/B  DistanceSensor_0/data_buffer_RNI94CN\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[10\]/A  DistanceSensor_0/data_buffer_RNO_0\[10\]/Y  DistanceSensor_0/data_buffer_RNO\[10\]/B  DistanceSensor_0/data_buffer_RNO\[10\]/Y  DistanceSensor_0/data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNO_0\[24\]/A  DistanceSensor_0/data_buffer_RNO_0\[24\]/Y  DistanceSensor_0/data_buffer_RNO\[24\]/A  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_RNI0MRI\[10\]/B  DistanceSensor_0/count_RNI0MRI\[10\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/C  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/C  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_33/A  DistanceSensor_0/count_2_I_33/Y  DistanceSensor_0/count_2_I_44/A  DistanceSensor_0/count_2_I_44/Y  DistanceSensor_0/count_2_I_45/B  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[10\]/CLK  DistanceSensor_0/count\[10\]/Q  DistanceSensor_0/count_RNI0MRI\[10\]/A  DistanceSensor_0/count_RNI0MRI\[10\]/Y  DistanceSensor_0/count_RNI6NGU1\[8\]/C  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[10\]/CLK  DistanceSensor_0/count\[10\]/Q  DistanceSensor_0/count_2_I_33/B  DistanceSensor_0/count_2_I_33/Y  DistanceSensor_0/count_2_I_44/A  DistanceSensor_0/count_2_I_44/Y  DistanceSensor_0/count_2_I_45/B  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/A  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/C  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[6\]/CLK  DistanceSensor_0/count\[6\]/Q  DistanceSensor_0/count_2_I_29/A  DistanceSensor_0/count_2_I_29/Y  DistanceSensor_0/count_2_I_30/C  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[7\]/CLK  DistanceSensor_0/count\[7\]/Q  DistanceSensor_0/count_2_I_29/B  DistanceSensor_0/count_2_I_29/Y  DistanceSensor_0/count_2_I_30/C  DistanceSensor_0/count_2_I_30/Y  DistanceSensor_0/count_2_I_42/A  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIT5P7\[5\]/B  DistanceSensor_0/data_buffer_RNIT5P7\[5\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[4\]/A  DistanceSensor_0/data_buffer_RNI94CN\[4\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/A  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO\[18\]/B  DistanceSensor_0/data_buffer_RNO\[18\]/Y  DistanceSensor_0/data_buffer\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNIKS58\[10\]/A  DistanceSensor_0/data_buffer_RNIKS58\[10\]/Y  DistanceSensor_0/data_buffer_RNIR9CD\[6\]/C  DistanceSensor_0/data_buffer_RNIR9CD\[6\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/B  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/A  DistanceSensor_0/data_buffer_RNIVB7B\[21\]/Y  DistanceSensor_0/data_buffer_RNISQPQ\[21\]/B  DistanceSensor_0/data_buffer_RNISQPQ\[21\]/Y  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/B  DistanceSensor_0/data_buffer_RNI7A2T2\[21\]/Y  DistanceSensor_0/data_buffer_RNO_0\[23\]/B  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNO_5\[31\]/B  DistanceSensor_0/data_buffer_RNO_5\[31\]/Y  DistanceSensor_0/data_buffer_RNO_2\[31\]/C  DistanceSensor_0/data_buffer_RNO_2\[31\]/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/A  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNIHSOA\[3\]/C  DistanceSensor_0/data_buffer_RNIHSOA\[3\]/Y  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/C  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/A  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data_buffer_RNI8E65\[8\]/B  DistanceSensor_0/data_buffer_RNI8E65\[8\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/B  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data_buffer_RNI8E65\[8\]/A  DistanceSensor_0/data_buffer_RNI8E65\[8\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/B  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data_buffer_RNI7LOD\[14\]/C  DistanceSensor_0/data_buffer_RNI7LOD\[14\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/A  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data_buffer_RNI3FCA\[4\]/B  DistanceSensor_0/data_buffer_RNI3FCA\[4\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[4\]/C  DistanceSensor_0/data_buffer_RNI94CN\[4\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/A  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[19\]/A  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[8\]/CLK  DistanceSensor_0/count\[8\]/Q  DistanceSensor_0/count_RNI6NGU1\[8\]/B  DistanceSensor_0/count_RNI6NGU1\[8\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/A  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[11\]/CLK  DistanceSensor_0/count\[11\]/Q  DistanceSensor_0/count_2_I_33/C  DistanceSensor_0/count_2_I_33/Y  DistanceSensor_0/count_2_I_44/A  DistanceSensor_0/count_2_I_44/Y  DistanceSensor_0/count_2_I_45/B  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[11\]/CLK  DistanceSensor_0/count\[11\]/Q  DistanceSensor_0/count_RNIDRSF\[11\]/B  DistanceSensor_0/count_RNIDRSF\[11\]/Y  DistanceSensor_0/count_RNIQMPV\[13\]/C  DistanceSensor_0/count_RNIQMPV\[13\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/B  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/B  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/C  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data_buffer_RNI9F65\[8\]/B  DistanceSensor_0/data_buffer_RNI9F65\[8\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[4\]/B  DistanceSensor_0/data_buffer_RNI94CN\[4\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/A  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[19\]/A  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_2/B  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/C  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[14\]/CLK  DistanceSensor_0/count\[14\]/Q  DistanceSensor_0/count_RNIDRSF\[11\]/A  DistanceSensor_0/count_RNIDRSF\[11\]/Y  DistanceSensor_0/count_RNIQMPV\[13\]/C  DistanceSensor_0/count_RNIQMPV\[13\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/B  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNIT5P7\[5\]/A  DistanceSensor_0/data_buffer_RNIT5P7\[5\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[4\]/A  DistanceSensor_0/data_buffer_RNI94CN\[4\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/A  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[19\]/A  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[11\]/CLK  DistanceSensor_0/data_buffer\[11\]/Q  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/A  DistanceSensor_0/data_buffer_RNIJ6BJ\[11\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/C  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[4\]/CLK  DistanceSensor_0/data_buffer\[4\]/Q  DistanceSensor_0/data_buffer_RNI3FCA\[4\]/A  DistanceSensor_0/data_buffer_RNI3FCA\[4\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[4\]/C  DistanceSensor_0/data_buffer_RNI94CN\[4\]/Y  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/A  DistanceSensor_0/data_buffer_RNIR5L62\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[19\]/A  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[11\]/CLK  DistanceSensor_0/data_buffer\[11\]/Q  DistanceSensor_0/data_buffer_RNIHSOA\[3\]/B  DistanceSensor_0/data_buffer_RNIHSOA\[3\]/Y  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/C  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/A  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_19/A  DistanceSensor_0/count_2_I_19/Y  DistanceSensor_0/count_2_I_20/A  DistanceSensor_0/count_2_I_20/Y  DistanceSensor_0/count_RNO\[7\]/A  DistanceSensor_0/count_RNO\[7\]/Y  DistanceSensor_0/count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_13/A  DistanceSensor_0/count_2_I_13/Y  DistanceSensor_0/count_2_I_14/A  DistanceSensor_0/count_2_I_14/Y  DistanceSensor_0/count_RNO\[5\]/A  DistanceSensor_0/count_RNO\[5\]/Y  DistanceSensor_0/count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[26\]/CLK  DistanceSensor_0/data_buffer\[26\]/Q  DistanceSensor_0/data_buffer_RNO_5\[31\]/A  DistanceSensor_0/data_buffer_RNO_5\[31\]/Y  DistanceSensor_0/data_buffer_RNO_2\[31\]/C  DistanceSensor_0/data_buffer_RNO_2\[31\]/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/A  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_33/A  DistanceSensor_0/count_2_I_33/Y  DistanceSensor_0/count_2_I_42/B  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[27\]/CLK  DistanceSensor_0/data_buffer\[27\]/Q  DistanceSensor_0/data_buffer_RNO_3\[31\]/B  DistanceSensor_0/data_buffer_RNO_3\[31\]/Y  DistanceSensor_0/data_buffer_RNO_2\[31\]/A  DistanceSensor_0/data_buffer_RNO_2\[31\]/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/A  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[6\]/CLK  DistanceSensor_0/count\[6\]/Q  DistanceSensor_0/count_2_I_21/A  DistanceSensor_0/count_2_I_21/Y  DistanceSensor_0/count_2_I_24/C  DistanceSensor_0/count_2_I_24/Y  DistanceSensor_0/count_2_I_25/B  DistanceSensor_0/count_2_I_25/Y  DistanceSensor_0/count_2_I_26/A  DistanceSensor_0/count_2_I_26/Y  DistanceSensor_0/count_RNO\[9\]/A  DistanceSensor_0/count_RNO\[9\]/Y  DistanceSensor_0/count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[7\]/CLK  DistanceSensor_0/count\[7\]/Q  DistanceSensor_0/count_2_I_21/B  DistanceSensor_0/count_2_I_21/Y  DistanceSensor_0/count_2_I_24/C  DistanceSensor_0/count_2_I_24/Y  DistanceSensor_0/count_2_I_25/B  DistanceSensor_0/count_2_I_25/Y  DistanceSensor_0/count_2_I_26/A  DistanceSensor_0/count_2_I_26/Y  DistanceSensor_0/count_RNO\[9\]/A  DistanceSensor_0/count_RNO\[9\]/Y  DistanceSensor_0/count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/A  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/C  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO\[12\]/B  DistanceSensor_0/data_buffer_RNO\[12\]/Y  DistanceSensor_0/data_buffer\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_18/A  DistanceSensor_0/count_2_I_18/Y  DistanceSensor_0/count_2_I_19/B  DistanceSensor_0/count_2_I_19/Y  DistanceSensor_0/count_2_I_20/A  DistanceSensor_0/count_2_I_20/Y  DistanceSensor_0/count_RNO\[7\]/A  DistanceSensor_0/count_RNO\[7\]/Y  DistanceSensor_0/count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[14\]/CLK  DistanceSensor_0/data_buffer\[14\]/Q  DistanceSensor_0/data_buffer_RNI7LOD\[14\]/B  DistanceSensor_0/data_buffer_RNI7LOD\[14\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/A  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/B  DistanceSensor_0/data_buffer_RNIQ5CA\[2\]/Y  DistanceSensor_0/data_buffer_RNO\[4\]/B  DistanceSensor_0/data_buffer_RNO\[4\]/Y  DistanceSensor_0/data_buffer\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[13\]/CLK  DistanceSensor_0/count\[13\]/Q  DistanceSensor_0/count_2_I_41/B  DistanceSensor_0/count_2_I_41/Y  DistanceSensor_0/count_2_I_44/B  DistanceSensor_0/count_2_I_44/Y  DistanceSensor_0/count_2_I_45/B  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[29\]/CLK  DistanceSensor_0/data_buffer\[29\]/Q  DistanceSensor_0/data_buffer_RNO_4\[31\]/B  DistanceSensor_0/data_buffer_RNO_4\[31\]/Y  DistanceSensor_0/data_buffer_RNO_2\[31\]/B  DistanceSensor_0/data_buffer_RNO_2\[31\]/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/A  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNI3965\[4\]/B  DistanceSensor_0/data_buffer_RNI3965\[4\]/Y  DistanceSensor_0/data_buffer_RNO_1\[24\]/C  DistanceSensor_0/data_buffer_RNO_1\[24\]/Y  DistanceSensor_0/data_buffer_RNO_0\[24\]/B  DistanceSensor_0/data_buffer_RNO_0\[24\]/Y  DistanceSensor_0/data_buffer_RNO\[24\]/A  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[13\]/CLK  DistanceSensor_0/count\[13\]/Q  DistanceSensor_0/count_RNIQMPV\[13\]/B  DistanceSensor_0/count_RNIQMPV\[13\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/B  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data_buffer_RNICLP7\[6\]/A  DistanceSensor_0/data_buffer_RNICLP7\[6\]/Y  DistanceSensor_0/data_buffer_RNI94CN\[6\]/B  DistanceSensor_0/data_buffer_RNI94CN\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[10\]/A  DistanceSensor_0/data_buffer_RNO_0\[10\]/Y  DistanceSensor_0/data_buffer_RNO\[10\]/B  DistanceSensor_0/data_buffer_RNO\[10\]/Y  DistanceSensor_0/data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[13\]/CLK  DistanceSensor_0/data_buffer\[13\]/Q  DistanceSensor_0/data_buffer_RNI7LOD\[14\]/A  DistanceSensor_0/data_buffer_RNI7LOD\[14\]/Y  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/A  DistanceSensor_0/data_buffer_RNI2AA61\[8\]/Y  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/B  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[12\]/CLK  DistanceSensor_0/count\[12\]/Q  DistanceSensor_0/count_2_I_41/A  DistanceSensor_0/count_2_I_41/Y  DistanceSensor_0/count_2_I_44/B  DistanceSensor_0/count_2_I_44/Y  DistanceSensor_0/count_2_I_45/B  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNO_3\[25\]/B  DistanceSensor_0/data_buffer_RNO_3\[25\]/Y  DistanceSensor_0/data_buffer_RNO_1\[25\]/C  DistanceSensor_0/data_buffer_RNO_1\[25\]/Y  DistanceSensor_0/data_buffer_RNO_0\[25\]/B  DistanceSensor_0/data_buffer_RNO_0\[25\]/Y  DistanceSensor_0/data_buffer_RNO\[25\]/A  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[28\]/CLK  DistanceSensor_0/data_buffer\[28\]/Q  DistanceSensor_0/data_buffer_RNO_3\[31\]/A  DistanceSensor_0/data_buffer_RNO_3\[31\]/Y  DistanceSensor_0/data_buffer_RNO_2\[31\]/A  DistanceSensor_0/data_buffer_RNO_2\[31\]/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/A  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[3\]/CLK  DistanceSensor_0/data_buffer\[3\]/Q  DistanceSensor_0/data_buffer_RNIHSOA\[3\]/A  DistanceSensor_0/data_buffer_RNIHSOA\[3\]/Y  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/C  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/A  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNO_2\[30\]/C  DistanceSensor_0/data_buffer_RNO_2\[30\]/Y  DistanceSensor_0/data_buffer_RNO_1\[30\]/A  DistanceSensor_0/data_buffer_RNO_1\[30\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/B  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[0\]/CLK  DistanceSensor_0/count\[0\]/Q  DistanceSensor_0/trigger_RNO_7/C  DistanceSensor_0/trigger_RNO_7/Y  DistanceSensor_0/trigger_RNO_6/B  DistanceSensor_0/trigger_RNO_6/Y  DistanceSensor_0/trigger_RNO_1/C  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[12\]/CLK  DistanceSensor_0/count\[12\]/Q  DistanceSensor_0/count_RNIQMPV\[13\]/A  DistanceSensor_0/count_RNIQMPV\[13\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/B  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[31\]/A  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[15\]/CLK  DistanceSensor_0/count\[15\]/Q  DistanceSensor_0/count_RNIJ1TF\[16\]/B  DistanceSensor_0/count_RNIJ1TF\[16\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/C  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[14\]/CLK  DistanceSensor_0/count\[14\]/Q  DistanceSensor_0/count_2_I_41/C  DistanceSensor_0/count_2_I_41/Y  DistanceSensor_0/count_2_I_44/B  DistanceSensor_0/count_2_I_44/Y  DistanceSensor_0/count_2_I_45/B  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNO_2\[29\]/C  DistanceSensor_0/data_buffer_RNO_2\[29\]/Y  DistanceSensor_0/data_buffer_RNO_1\[29\]/A  DistanceSensor_0/data_buffer_RNO_1\[29\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/A  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data_buffer_RNIR9CD\[6\]/B  DistanceSensor_0/data_buffer_RNIR9CD\[6\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/B  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNO_2\[24\]/B  DistanceSensor_0/data_buffer_RNO_2\[24\]/Y  DistanceSensor_0/data_buffer_RNO_1\[24\]/B  DistanceSensor_0/data_buffer_RNO_1\[24\]/Y  DistanceSensor_0/data_buffer_RNO_0\[24\]/B  DistanceSensor_0/data_buffer_RNO_0\[24\]/Y  DistanceSensor_0/data_buffer_RNO\[24\]/A  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[26\]/CLK  DistanceSensor_0/data_buffer\[26\]/Q  DistanceSensor_0/data_buffer_RNO_3\[30\]/B  DistanceSensor_0/data_buffer_RNO_3\[30\]/Y  DistanceSensor_0/data_buffer_RNO_1\[30\]/B  DistanceSensor_0/data_buffer_RNO_1\[30\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/B  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data_buffer_RNO_3\[14\]/B  DistanceSensor_0/data_buffer_RNO_3\[14\]/Y  DistanceSensor_0/data_buffer_RNO_1\[14\]/C  DistanceSensor_0/data_buffer_RNO_1\[14\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/A  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[4\]/CLK  DistanceSensor_0/data_buffer\[4\]/Q  DistanceSensor_0/data_buffer_RNO_3\[29\]/B  DistanceSensor_0/data_buffer_RNO_3\[29\]/Y  DistanceSensor_0/data_buffer_RNO_1\[29\]/B  DistanceSensor_0/data_buffer_RNO_1\[29\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/A  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[2\]/CLK  DistanceSensor_0/count\[2\]/Q  DistanceSensor_0/trigger_RNO_7/B  DistanceSensor_0/trigger_RNO_7/Y  DistanceSensor_0/trigger_RNO_6/B  DistanceSensor_0/trigger_RNO_6/Y  DistanceSensor_0/trigger_RNO_1/C  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNO_3\[25\]/A  DistanceSensor_0/data_buffer_RNO_3\[25\]/Y  DistanceSensor_0/data_buffer_RNO_1\[25\]/C  DistanceSensor_0/data_buffer_RNO_1\[25\]/Y  DistanceSensor_0/data_buffer_RNO_0\[25\]/B  DistanceSensor_0/data_buffer_RNO_0\[25\]/Y  DistanceSensor_0/data_buffer_RNO\[25\]/A  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[30\]/CLK  DistanceSensor_0/data_buffer\[30\]/Q  DistanceSensor_0/data_buffer_RNO_4\[31\]/A  DistanceSensor_0/data_buffer_RNO_4\[31\]/Y  DistanceSensor_0/data_buffer_RNO_2\[31\]/B  DistanceSensor_0/data_buffer_RNO_2\[31\]/Y  DistanceSensor_0/data_buffer_RNO_1\[31\]/A  DistanceSensor_0/data_buffer_RNO_1\[31\]/Y  DistanceSensor_0/data_buffer_RNO_0\[31\]/B  DistanceSensor_0/data_buffer_RNO_0\[31\]/Y  DistanceSensor_0/data_buffer_RNO\[31\]/C  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[27\]/CLK  DistanceSensor_0/data_buffer\[27\]/Q  DistanceSensor_0/data_buffer_RNO_3\[30\]/A  DistanceSensor_0/data_buffer_RNO_3\[30\]/Y  DistanceSensor_0/data_buffer_RNO_1\[30\]/B  DistanceSensor_0/data_buffer_RNO_1\[30\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/B  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data_buffer_RNIR9CD\[6\]/A  DistanceSensor_0/data_buffer_RNIR9CD\[6\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/B  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[23\]/CLK  DistanceSensor_0/data_buffer\[23\]/Q  DistanceSensor_0/data_buffer_RNO_2\[25\]/B  DistanceSensor_0/data_buffer_RNO_2\[25\]/Y  DistanceSensor_0/data_buffer_RNO_1\[25\]/B  DistanceSensor_0/data_buffer_RNO_1\[25\]/Y  DistanceSensor_0/data_buffer_RNO_0\[25\]/B  DistanceSensor_0/data_buffer_RNO_0\[25\]/Y  DistanceSensor_0/data_buffer_RNO\[25\]/A  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/trigger_RNO_7/A  DistanceSensor_0/trigger_RNO_7/Y  DistanceSensor_0/trigger_RNO_6/B  DistanceSensor_0/trigger_RNO_6/Y  DistanceSensor_0/trigger_RNO_1/C  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_11/B  DistanceSensor_0/count_2_I_11/Y  DistanceSensor_0/count_2_I_12/A  DistanceSensor_0/count_2_I_12/Y  DistanceSensor_0/count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/B  DistanceSensor_0/data_buffer_RNI0L5I\[6\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/C  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNO_3\[14\]/A  DistanceSensor_0/data_buffer_RNO_3\[14\]/Y  DistanceSensor_0/data_buffer_RNO_1\[14\]/C  DistanceSensor_0/data_buffer_RNO_1\[14\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/A  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/B  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/A  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[27\]/CLK  DistanceSensor_0/data_buffer\[27\]/Q  DistanceSensor_0/data_buffer_RNO_3\[29\]/A  DistanceSensor_0/data_buffer_RNO_3\[29\]/Y  DistanceSensor_0/data_buffer_RNO_1\[29\]/B  DistanceSensor_0/data_buffer_RNO_1\[29\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/A  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[23\]/CLK  DistanceSensor_0/data_buffer\[23\]/Q  DistanceSensor_0/data_buffer_RNO_2\[24\]/A  DistanceSensor_0/data_buffer_RNO_2\[24\]/Y  DistanceSensor_0/data_buffer_RNO_1\[24\]/B  DistanceSensor_0/data_buffer_RNO_1\[24\]/Y  DistanceSensor_0/data_buffer_RNO_0\[24\]/B  DistanceSensor_0/data_buffer_RNO_0\[24\]/Y  DistanceSensor_0/data_buffer_RNO\[24\]/A  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[26\]/CLK  DistanceSensor_0/data_buffer\[26\]/Q  DistanceSensor_0/data_buffer_RNO_2\[29\]/A  DistanceSensor_0/data_buffer_RNO_2\[29\]/Y  DistanceSensor_0/data_buffer_RNO_1\[29\]/A  DistanceSensor_0/data_buffer_RNO_1\[29\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/A  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[21\]/CLK  DistanceSensor_0/data_buffer\[21\]/Q  DistanceSensor_0/data_buffer_RNI1E7B\[21\]/B  DistanceSensor_0/data_buffer_RNI1E7B\[21\]/Y  DistanceSensor_0/data_buffer_RNO_1\[24\]/A  DistanceSensor_0/data_buffer_RNO_1\[24\]/Y  DistanceSensor_0/data_buffer_RNO_0\[24\]/B  DistanceSensor_0/data_buffer_RNO_0\[24\]/Y  DistanceSensor_0/data_buffer_RNO\[24\]/A  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[21\]/CLK  DistanceSensor_0/data_buffer\[21\]/Q  DistanceSensor_0/data_buffer_RNI1E7B\[21\]/B  DistanceSensor_0/data_buffer_RNI1E7B\[21\]/Y  DistanceSensor_0/data_buffer_RNO_1\[25\]/A  DistanceSensor_0/data_buffer_RNO_1\[25\]/Y  DistanceSensor_0/data_buffer_RNO_0\[25\]/B  DistanceSensor_0/data_buffer_RNO_0\[25\]/Y  DistanceSensor_0/data_buffer_RNO\[25\]/A  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[0\]/B  DistanceSensor_0/data_buffer_RNO\[0\]/Y  DistanceSensor_0/data_buffer\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[2\]/CLK  DistanceSensor_0/data_buffer\[2\]/Q  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/B  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/C  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[22\]/CLK  DistanceSensor_0/data_buffer\[22\]/Q  DistanceSensor_0/data_buffer_RNI1E7B\[21\]/A  DistanceSensor_0/data_buffer_RNI1E7B\[21\]/Y  DistanceSensor_0/data_buffer_RNO_1\[24\]/A  DistanceSensor_0/data_buffer_RNO_1\[24\]/Y  DistanceSensor_0/data_buffer_RNO_0\[24\]/B  DistanceSensor_0/data_buffer_RNO_0\[24\]/Y  DistanceSensor_0/data_buffer_RNO\[24\]/A  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_16/A  DistanceSensor_0/count_2_I_16/Y  DistanceSensor_0/count_2_I_17/A  DistanceSensor_0/count_2_I_17/Y  DistanceSensor_0/count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_10/B  DistanceSensor_0/count_2_I_10/Y  DistanceSensor_0/count_2_I_22/A  DistanceSensor_0/count_2_I_22/Y  DistanceSensor_0/count_2_I_23/A  DistanceSensor_0/count_2_I_23/Y  DistanceSensor_0/count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[24\]/CLK  DistanceSensor_0/data_buffer\[24\]/Q  DistanceSensor_0/data_buffer_RNO_2\[25\]/A  DistanceSensor_0/data_buffer_RNO_2\[25\]/Y  DistanceSensor_0/data_buffer_RNO_1\[25\]/B  DistanceSensor_0/data_buffer_RNO_1\[25\]/Y  DistanceSensor_0/data_buffer_RNO_0\[25\]/B  DistanceSensor_0/data_buffer_RNO_0\[25\]/Y  DistanceSensor_0/data_buffer_RNO\[25\]/A  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[4\]/CLK  DistanceSensor_0/data_buffer\[4\]/Q  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/A  DistanceSensor_0/data_buffer_RNIN8VF\[4\]/Y  DistanceSensor_0/data_buffer_RNICL451\[4\]/A  DistanceSensor_0/data_buffer_RNICL451\[4\]/Y  DistanceSensor_0/data_buffer_RNO_0\[13\]/A  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[29\]/CLK  DistanceSensor_0/data_buffer\[29\]/Q  DistanceSensor_0/data_buffer_RNO_2\[30\]/B  DistanceSensor_0/data_buffer_RNO_2\[30\]/Y  DistanceSensor_0/data_buffer_RNO_1\[30\]/A  DistanceSensor_0/data_buffer_RNO_1\[30\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/B  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_33/A  DistanceSensor_0/count_2_I_33/Y  DistanceSensor_0/count_2_I_39/B  DistanceSensor_0/count_2_I_39/Y  DistanceSensor_0/count_2_I_40/A  DistanceSensor_0/count_2_I_40/Y  DistanceSensor_0/count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_33/A  DistanceSensor_0/count_2_I_33/Y  DistanceSensor_0/count_2_I_36/B  DistanceSensor_0/count_2_I_36/Y  DistanceSensor_0/count_2_I_37/A  DistanceSensor_0/count_2_I_37/Y  DistanceSensor_0/count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[1\]/C  DistanceSensor_0/data_buffer_RNO\[1\]/Y  DistanceSensor_0/data_buffer\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[2\]/C  DistanceSensor_0/data_buffer_RNO\[2\]/Y  DistanceSensor_0/data_buffer\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[3\]/C  DistanceSensor_0/data_buffer_RNO\[3\]/Y  DistanceSensor_0/data_buffer\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[4\]/C  DistanceSensor_0/data_buffer_RNO\[4\]/Y  DistanceSensor_0/data_buffer\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[5\]/C  DistanceSensor_0/data_buffer_RNO\[5\]/Y  DistanceSensor_0/data_buffer\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[12\]/C  DistanceSensor_0/data_buffer_RNO\[12\]/Y  DistanceSensor_0/data_buffer\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[13\]/C  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[18\]/C  DistanceSensor_0/data_buffer_RNO\[18\]/Y  DistanceSensor_0/data_buffer\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[6\]/C  DistanceSensor_0/data_buffer_RNO\[6\]/Y  DistanceSensor_0/data_buffer\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[7\]/C  DistanceSensor_0/data_buffer_RNO\[7\]/Y  DistanceSensor_0/data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[8\]/C  DistanceSensor_0/data_buffer_RNO\[8\]/Y  DistanceSensor_0/data_buffer\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[9\]/C  DistanceSensor_0/data_buffer_RNO\[9\]/Y  DistanceSensor_0/data_buffer\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[10\]/C  DistanceSensor_0/data_buffer_RNO\[10\]/Y  DistanceSensor_0/data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[11\]/C  DistanceSensor_0/data_buffer_RNO\[11\]/Y  DistanceSensor_0/data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[16\]/C  DistanceSensor_0/data_buffer_RNO\[16\]/Y  DistanceSensor_0/data_buffer\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[17\]/C  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_1/A  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[14\]/C  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[16\]/CLK  DistanceSensor_0/count\[16\]/Q  DistanceSensor_0/count_RNIJ1TF\[16\]/A  DistanceSensor_0/count_RNIJ1TF\[16\]/Y  DistanceSensor_0/count_RNIJF7E3\[16\]/C  DistanceSensor_0/count_RNIJF7E3\[16\]/Y  DistanceSensor_0/trigger_RNO/C  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[28\]/CLK  DistanceSensor_0/data_buffer\[28\]/Q  DistanceSensor_0/data_buffer_RNO_2\[30\]/A  DistanceSensor_0/data_buffer_RNO_2\[30\]/Y  DistanceSensor_0/data_buffer_RNO_1\[30\]/A  DistanceSensor_0/data_buffer_RNO_1\[30\]/Y  DistanceSensor_0/data_buffer_RNO_0\[30\]/B  DistanceSensor_0/data_buffer_RNO_0\[30\]/Y  DistanceSensor_0/data_buffer_RNO\[30\]/A  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[28\]/CLK  DistanceSensor_0/data_buffer\[28\]/Q  DistanceSensor_0/data_buffer_RNO_2\[29\]/B  DistanceSensor_0/data_buffer_RNO_2\[29\]/Y  DistanceSensor_0/data_buffer_RNO_1\[29\]/A  DistanceSensor_0/data_buffer_RNO_1\[29\]/Y  DistanceSensor_0/data_buffer_RNO_0\[29\]/A  DistanceSensor_0/data_buffer_RNO_0\[29\]/Y  DistanceSensor_0/data_buffer_RNO\[29\]/A  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[19\]/C  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[20\]/C  DistanceSensor_0/data_buffer_RNO\[20\]/Y  DistanceSensor_0/data_buffer\[20\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[25\]/C  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[30\]/C  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[21\]/C  DistanceSensor_0/data_buffer_RNO\[21\]/Y  DistanceSensor_0/data_buffer\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[28\]/C  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[27\]/C  DistanceSensor_0/data_buffer_RNO\[27\]/Y  DistanceSensor_0/data_buffer\[27\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[23\]/C  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[22\]/C  DistanceSensor_0/data_buffer_RNO\[22\]/Y  DistanceSensor_0/data_buffer\[22\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[24\]/C  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[29\]/C  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_33/A  DistanceSensor_0/count_2_I_33/Y  DistanceSensor_0/count_2_I_34/A  DistanceSensor_0/count_2_I_34/Y  DistanceSensor_0/count_2_I_35/A  DistanceSensor_0/count_2_I_35/Y  DistanceSensor_0/count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[13\]/CLK  DistanceSensor_0/count\[13\]/Q  DistanceSensor_0/count_2_I_41/B  DistanceSensor_0/count_2_I_41/Y  DistanceSensor_0/count_2_I_42/C  DistanceSensor_0/count_2_I_42/Y  DistanceSensor_0/count_2_I_43/A  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_18/A  DistanceSensor_0/count_2_I_18/Y  DistanceSensor_0/count_2_I_22/B  DistanceSensor_0/count_2_I_22/Y  DistanceSensor_0/count_2_I_23/A  DistanceSensor_0/count_2_I_23/Y  DistanceSensor_0/count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[15\]/B  DistanceSensor_0/data_buffer_RNO\[15\]/Y  DistanceSensor_0/data_buffer\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_2/A  DistanceSensor_0/echo_1_RNI1TBF_2/Y  DistanceSensor_0/data_buffer_RNO\[26\]/B  DistanceSensor_0/data_buffer_RNO\[26\]/Y  DistanceSensor_0/data_buffer\[26\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/A  DistanceSensor_0/data_buffer_RNIQ2P7\[2\]/Y  DistanceSensor_0/data_buffer_RNO\[3\]/B  DistanceSensor_0/data_buffer_RNO\[3\]/Y  DistanceSensor_0/data_buffer\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data_buffer_RNO_2\[14\]/C  DistanceSensor_0/data_buffer_RNO_2\[14\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/B  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNIKS58\[10\]/A  DistanceSensor_0/data_buffer_RNIKS58\[10\]/Y  DistanceSensor_0/data_buffer_RNO_0\[11\]/B  DistanceSensor_0/data_buffer_RNO_0\[11\]/Y  DistanceSensor_0/data_buffer_RNO\[11\]/B  DistanceSensor_0/data_buffer_RNO\[11\]/Y  DistanceSensor_0/data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/trigger_RNO_6/A  DistanceSensor_0/trigger_RNO_6/Y  DistanceSensor_0/trigger_RNO_1/C  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[11\]/CLK  DistanceSensor_0/count\[11\]/Q  DistanceSensor_0/count_RNIDRSF\[11\]/B  DistanceSensor_0/count_RNIDRSF\[11\]/Y  DistanceSensor_0/count_RNIQMPV\[13\]/C  DistanceSensor_0/count_RNIQMPV\[13\]/Y  DistanceSensor_0/trigger_RNO_0/C  DistanceSensor_0/trigger_RNO_0/Y  DistanceSensor_0/trigger_RNO/A  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[26\]/CLK  DistanceSensor_0/data_buffer\[26\]/Q  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/C  DistanceSensor_0/data_buffer_RNI6A5P3\[26\]/Y  DistanceSensor_0/data_buffer_RNO_0\[28\]/B  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_1/B  DistanceSensor_0/echo_1_RNI1TBF_1/Y  DistanceSensor_0/data_buffer_RNO\[1\]/C  DistanceSensor_0/data_buffer_RNO\[1\]/Y  DistanceSensor_0/data_buffer\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNO_1\[14\]/B  DistanceSensor_0/data_buffer_RNO_1\[14\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/A  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[11\]/CLK  DistanceSensor_0/data_buffer\[11\]/Q  DistanceSensor_0/data_buffer_RNO_2\[14\]/A  DistanceSensor_0/data_buffer_RNO_2\[14\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/B  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[13\]/CLK  DistanceSensor_0/data_buffer\[13\]/Q  DistanceSensor_0/data_buffer_RNO_2\[14\]/B  DistanceSensor_0/data_buffer_RNO_2\[14\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/B  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[8\]/CLK  DistanceSensor_0/count\[8\]/Q  DistanceSensor_0/trigger_RNO_4/C  DistanceSensor_0/trigger_RNO_4/Y  DistanceSensor_0/trigger_RNO_1/A  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/trigger_RNO_5/A  DistanceSensor_0/trigger_RNO_5/Y  DistanceSensor_0/trigger_RNO_1/B  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_27/C  DistanceSensor_0/count_2_I_27/Y  DistanceSensor_0/count_2_I_28/A  DistanceSensor_0/count_2_I_28/Y  DistanceSensor_0/count_RNO\[10\]/A  DistanceSensor_0/count_RNO\[10\]/Y  DistanceSensor_0/count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[10\]/CLK  DistanceSensor_0/count\[10\]/Q  DistanceSensor_0/trigger_RNO_2/B  DistanceSensor_0/trigger_RNO_2/Y  DistanceSensor_0/trigger_RNO_0/A  DistanceSensor_0/trigger_RNO_0/Y  DistanceSensor_0/trigger_RNO/A  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[6\]/CLK  DistanceSensor_0/count\[6\]/Q  DistanceSensor_0/trigger_RNO_5/B  DistanceSensor_0/trigger_RNO_5/Y  DistanceSensor_0/trigger_RNO_1/B  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_13/B  DistanceSensor_0/count_2_I_13/Y  DistanceSensor_0/count_2_I_14/A  DistanceSensor_0/count_2_I_14/Y  DistanceSensor_0/count_RNO\[5\]/A  DistanceSensor_0/count_RNO\[5\]/Y  DistanceSensor_0/count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[8\]/CLK  DistanceSensor_0/count\[8\]/Q  DistanceSensor_0/count_2_I_27/B  DistanceSensor_0/count_2_I_27/Y  DistanceSensor_0/count_2_I_28/A  DistanceSensor_0/count_2_I_28/Y  DistanceSensor_0/count_RNO\[10\]/A  DistanceSensor_0/count_RNO\[10\]/Y  DistanceSensor_0/count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[31\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[25\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[30\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[29\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[28\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[27\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[26\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[9\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[8\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[7\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[6\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[5\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[4\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[3\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[2\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[1\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF/A  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[0\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[24\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[23\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[22\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[21\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[20\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[19\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[18\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[17\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[16\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[15\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[14\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[13\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[12\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[11\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_1/CLK  DistanceSensor_0/echo_1/Q  DistanceSensor_0/echo_1_RNI1TBF_0/A  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[10\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[15\]/CLK  DistanceSensor_0/data_buffer\[15\]/Q  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/C  DistanceSensor_0/data_buffer_RNIIHFR1\[15\]/Y  DistanceSensor_0/data_buffer_RNO_0\[17\]/A  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[4\]/CLK  DistanceSensor_0/count\[4\]/Q  DistanceSensor_0/trigger_RNO_6/C  DistanceSensor_0/trigger_RNO_6/Y  DistanceSensor_0/trigger_RNO_1/C  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[10\]/CLK  DistanceSensor_0/data_buffer\[10\]/Q  DistanceSensor_0/data_buffer_RNO_1\[14\]/A  DistanceSensor_0/data_buffer_RNO_1\[14\]/Y  DistanceSensor_0/data_buffer_RNO_0\[14\]/A  DistanceSensor_0/data_buffer_RNO_0\[14\]/Y  DistanceSensor_0/data_buffer_RNO\[14\]/A  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_15/A  DistanceSensor_0/count_2_I_15/Y  DistanceSensor_0/count_2_I_16/B  DistanceSensor_0/count_2_I_16/Y  DistanceSensor_0/count_2_I_17/A  DistanceSensor_0/count_2_I_17/Y  DistanceSensor_0/count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[8\]/CLK  DistanceSensor_0/count\[8\]/Q  DistanceSensor_0/count_2_I_25/A  DistanceSensor_0/count_2_I_25/Y  DistanceSensor_0/count_2_I_26/A  DistanceSensor_0/count_2_I_26/Y  DistanceSensor_0/count_RNO\[9\]/A  DistanceSensor_0/count_RNO\[9\]/Y  DistanceSensor_0/count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[4\]/CLK  DistanceSensor_0/count\[4\]/Q  DistanceSensor_0/count_2_I_15/B  DistanceSensor_0/count_2_I_15/Y  DistanceSensor_0/count_2_I_16/B  DistanceSensor_0/count_2_I_16/Y  DistanceSensor_0/count_2_I_17/A  DistanceSensor_0/count_2_I_17/Y  DistanceSensor_0/count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[4\]/CLK  DistanceSensor_0/count\[4\]/Q  DistanceSensor_0/count_2_I_13/C  DistanceSensor_0/count_2_I_13/Y  DistanceSensor_0/count_2_I_14/A  DistanceSensor_0/count_2_I_14/Y  DistanceSensor_0/count_RNO\[5\]/A  DistanceSensor_0/count_RNO\[5\]/Y  DistanceSensor_0/count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[6\]/CLK  DistanceSensor_0/count\[6\]/Q  DistanceSensor_0/count_2_I_19/C  DistanceSensor_0/count_2_I_19/Y  DistanceSensor_0/count_2_I_20/A  DistanceSensor_0/count_2_I_20/Y  DistanceSensor_0/count_RNO\[7\]/A  DistanceSensor_0/count_RNO\[7\]/Y  DistanceSensor_0/count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[6\]/CLK  DistanceSensor_0/count\[6\]/Q  DistanceSensor_0/count_2_I_21/A  DistanceSensor_0/count_2_I_21/Y  DistanceSensor_0/count_2_I_22/C  DistanceSensor_0/count_2_I_22/Y  DistanceSensor_0/count_2_I_23/A  DistanceSensor_0/count_2_I_23/Y  DistanceSensor_0/count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[13\]/CLK  DistanceSensor_0/count\[13\]/Q  DistanceSensor_0/count_2_I_38/B  DistanceSensor_0/count_2_I_38/Y  DistanceSensor_0/count_2_I_39/C  DistanceSensor_0/count_2_I_39/Y  DistanceSensor_0/count_2_I_40/A  DistanceSensor_0/count_2_I_40/Y  DistanceSensor_0/count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/trigger_RNO_4/A  DistanceSensor_0/trigger_RNO_4/Y  DistanceSensor_0/trigger_RNO_1/A  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[12\]/CLK  DistanceSensor_0/count\[12\]/Q  DistanceSensor_0/count_2_I_38/A  DistanceSensor_0/count_2_I_38/Y  DistanceSensor_0/count_2_I_39/C  DistanceSensor_0/count_2_I_39/Y  DistanceSensor_0/count_2_I_40/A  DistanceSensor_0/count_2_I_40/Y  DistanceSensor_0/count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNIR065\[1\]/A  DistanceSensor_0/data_buffer_RNIR065\[1\]/Y  DistanceSensor_0/data_buffer_RNO\[2\]/B  DistanceSensor_0/data_buffer_RNO\[2\]/Y  DistanceSensor_0/data_buffer\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[15\]/CLK  DistanceSensor_0/count\[15\]/Q  DistanceSensor_0/count_2_I_45/C  DistanceSensor_0/count_2_I_45/Y  DistanceSensor_0/count_2_I_46/A  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[15\]/CLK  DistanceSensor_0/count\[15\]/Q  DistanceSensor_0/trigger_RNO_2/A  DistanceSensor_0/trigger_RNO_2/Y  DistanceSensor_0/trigger_RNO_0/A  DistanceSensor_0/trigger_RNO_0/Y  DistanceSensor_0/trigger_RNO/A  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[7\]/CLK  DistanceSensor_0/count\[7\]/Q  DistanceSensor_0/trigger_RNO_4/B  DistanceSensor_0/trigger_RNO_4/Y  DistanceSensor_0/trigger_RNO_1/A  DistanceSensor_0/trigger_RNO_1/Y  DistanceSensor_0/trigger_RNO/B  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF/B  DistanceSensor_0/echo_1_RNI1TBF/Y  DistanceSensor_0/data\[31\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1_RNI1TBF_0/B  DistanceSensor_0/echo_1_RNI1TBF_0/Y  DistanceSensor_0/data\[25\]/E  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data_buffer_RNO_0\[8\]/B  DistanceSensor_0/data_buffer_RNO_0\[8\]/Y  DistanceSensor_0/data_buffer_RNO\[8\]/B  DistanceSensor_0/data_buffer_RNO\[8\]/Y  DistanceSensor_0/data_buffer\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_26/B  DistanceSensor_0/count_2_I_26/Y  DistanceSensor_0/count_RNO\[9\]/A  DistanceSensor_0/count_RNO\[9\]/Y  DistanceSensor_0/count\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[27\]/CLK  DistanceSensor_0/data_buffer\[27\]/Q  DistanceSensor_0/data_buffer_RNO_0\[28\]/A  DistanceSensor_0/data_buffer_RNO_0\[28\]/Y  DistanceSensor_0/data_buffer_RNO\[28\]/A  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_2_I_14/B  DistanceSensor_0/count_2_I_14/Y  DistanceSensor_0/count_RNO\[5\]/A  DistanceSensor_0/count_RNO\[5\]/Y  DistanceSensor_0/count\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[10\]/CLK  DistanceSensor_0/count\[10\]/Q  DistanceSensor_0/count_2_I_28/B  DistanceSensor_0/count_2_I_28/Y  DistanceSensor_0/count_RNO\[10\]/A  DistanceSensor_0/count_RNO\[10\]/Y  DistanceSensor_0/count\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNO_0\[13\]/B  DistanceSensor_0/data_buffer_RNO_0\[13\]/Y  DistanceSensor_0/data_buffer_RNO\[13\]/B  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNO_0\[10\]/B  DistanceSensor_0/data_buffer_RNO_0\[10\]/Y  DistanceSensor_0/data_buffer_RNO\[10\]/B  DistanceSensor_0/data_buffer_RNO\[10\]/Y  DistanceSensor_0/data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNO_0\[21\]/B  DistanceSensor_0/data_buffer_RNO_0\[21\]/Y  DistanceSensor_0/data_buffer_RNO\[21\]/B  DistanceSensor_0/data_buffer_RNO\[21\]/Y  DistanceSensor_0/data_buffer\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[16\]/CLK  DistanceSensor_0/count\[16\]/Q  DistanceSensor_0/trigger_RNO_3/B  DistanceSensor_0/trigger_RNO_3/Y  DistanceSensor_0/trigger_RNO_0/B  DistanceSensor_0/trigger_RNO_0/Y  DistanceSensor_0/trigger_RNO/A  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[15\]/CLK  DistanceSensor_0/count\[15\]/Q  DistanceSensor_0/count_2_I_43/B  DistanceSensor_0/count_2_I_43/Y  DistanceSensor_0/count_RNO\[15\]/A  DistanceSensor_0/count_RNO\[15\]/Y  DistanceSensor_0/count\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[22\]/CLK  DistanceSensor_0/data_buffer\[22\]/Q  DistanceSensor_0/data_buffer_RNO_0\[23\]/A  DistanceSensor_0/data_buffer_RNO_0\[23\]/Y  DistanceSensor_0/data_buffer_RNO\[23\]/A  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[7\]/CLK  DistanceSensor_0/count\[7\]/Q  DistanceSensor_0/count_2_I_20/B  DistanceSensor_0/count_2_I_20/Y  DistanceSensor_0/count_RNO\[7\]/A  DistanceSensor_0/count_RNO\[7\]/Y  DistanceSensor_0/count\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[9\]/CLK  DistanceSensor_0/count\[9\]/Q  DistanceSensor_0/count_2_I_31/B  DistanceSensor_0/count_2_I_31/Y  DistanceSensor_0/count_2_I_32/A  DistanceSensor_0/count_2_I_32/Y  DistanceSensor_0/count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[26\]/CLK  DistanceSensor_0/data_buffer\[26\]/Q  DistanceSensor_0/data_buffer_RNO_0\[26\]/C  DistanceSensor_0/data_buffer_RNO_0\[26\]/Y  DistanceSensor_0/data_buffer_RNO\[26\]/A  DistanceSensor_0/data_buffer_RNO\[26\]/Y  DistanceSensor_0/data_buffer\[26\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[16\]/CLK  DistanceSensor_0/data_buffer\[16\]/Q  DistanceSensor_0/data_buffer_RNO_0\[17\]/B  DistanceSensor_0/data_buffer_RNO_0\[17\]/Y  DistanceSensor_0/data_buffer_RNO\[17\]/B  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[18\]/CLK  DistanceSensor_0/data_buffer\[18\]/Q  DistanceSensor_0/data_buffer_RNO_0\[19\]/B  DistanceSensor_0/data_buffer_RNO_0\[19\]/Y  DistanceSensor_0/data_buffer_RNO\[19\]/B  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/trigger/CLK  DistanceSensor_0/trigger/Q  DistanceSensor_0/trigger_RNO_3/A  DistanceSensor_0/trigger_RNO_3/Y  DistanceSensor_0/trigger_RNO_0/B  DistanceSensor_0/trigger_RNO_0/Y  DistanceSensor_0/trigger_RNO/A  DistanceSensor_0/trigger_RNO/Y  DistanceSensor_0/trigger/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_11/A  DistanceSensor_0/count_2_I_11/Y  DistanceSensor_0/count_2_I_12/A  DistanceSensor_0/count_2_I_12/Y  DistanceSensor_0/count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[5\]/CLK  DistanceSensor_0/count\[5\]/Q  DistanceSensor_0/count_2_I_16/C  DistanceSensor_0/count_2_I_16/Y  DistanceSensor_0/count_2_I_17/A  DistanceSensor_0/count_2_I_17/Y  DistanceSensor_0/count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[10\]/CLK  DistanceSensor_0/count\[10\]/Q  DistanceSensor_0/count_2_I_31/C  DistanceSensor_0/count_2_I_31/Y  DistanceSensor_0/count_2_I_32/A  DistanceSensor_0/count_2_I_32/Y  DistanceSensor_0/count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[12\]/CLK  DistanceSensor_0/count\[12\]/Q  DistanceSensor_0/count_2_I_36/C  DistanceSensor_0/count_2_I_36/Y  DistanceSensor_0/count_2_I_37/A  DistanceSensor_0/count_2_I_37/Y  DistanceSensor_0/count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[0\]/CLK  DistanceSensor_0/count\[0\]/Q  DistanceSensor_0/count_2_I_6/B  DistanceSensor_0/count_2_I_6/Y  DistanceSensor_0/count_2_I_7/A  DistanceSensor_0/count_2_I_7/Y  DistanceSensor_0/count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_8/B  DistanceSensor_0/count_2_I_8/Y  DistanceSensor_0/count_2_I_9/A  DistanceSensor_0/count_2_I_9/Y  DistanceSensor_0/count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[2\]/CLK  DistanceSensor_0/count\[2\]/Q  DistanceSensor_0/count_2_I_8/C  DistanceSensor_0/count_2_I_8/Y  DistanceSensor_0/count_2_I_9/A  DistanceSensor_0/count_2_I_9/Y  DistanceSensor_0/count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_6/A  DistanceSensor_0/count_2_I_6/Y  DistanceSensor_0/count_2_I_7/A  DistanceSensor_0/count_2_I_7/Y  DistanceSensor_0/count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[16\]/CLK  DistanceSensor_0/count\[16\]/Q  DistanceSensor_0/count_2_I_46/B  DistanceSensor_0/count_2_I_46/Y  DistanceSensor_0/count_RNO\[16\]/A  DistanceSensor_0/count_RNO\[16\]/Y  DistanceSensor_0/count\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[15\]/CLK  DistanceSensor_0/data_buffer\[15\]/Q  DistanceSensor_0/data_buffer_RNO_0\[15\]/C  DistanceSensor_0/data_buffer_RNO_0\[15\]/Y  DistanceSensor_0/data_buffer_RNO\[15\]/A  DistanceSensor_0/data_buffer_RNO\[15\]/Y  DistanceSensor_0/data_buffer\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[0\]/CLK  DistanceSensor_0/count\[0\]/Q  DistanceSensor_0/count_2_I_8/A  DistanceSensor_0/count_2_I_8/Y  DistanceSensor_0/count_2_I_9/A  DistanceSensor_0/count_2_I_9/Y  DistanceSensor_0/count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data_buffer_RNO\[5\]/A  DistanceSensor_0/data_buffer_RNO\[5\]/Y  DistanceSensor_0/data_buffer\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data_buffer_RNO\[6\]/A  DistanceSensor_0/data_buffer_RNO\[6\]/Y  DistanceSensor_0/data_buffer\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data_buffer_RNO\[7\]/A  DistanceSensor_0/data_buffer_RNO\[7\]/Y  DistanceSensor_0/data_buffer\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[3\]/CLK  DistanceSensor_0/count\[3\]/Q  DistanceSensor_0/count_2_I_9/B  DistanceSensor_0/count_2_I_9/Y  DistanceSensor_0/count\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[8\]/CLK  DistanceSensor_0/count\[8\]/Q  DistanceSensor_0/count_2_I_23/B  DistanceSensor_0/count_2_I_23/Y  DistanceSensor_0/count\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[4\]/CLK  DistanceSensor_0/data_buffer\[4\]/Q  DistanceSensor_0/data_buffer_RNO\[4\]/A  DistanceSensor_0/data_buffer_RNO\[4\]/Y  DistanceSensor_0/data_buffer\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data_buffer_RNO\[8\]/A  DistanceSensor_0/data_buffer_RNO\[8\]/Y  DistanceSensor_0/data_buffer\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data_buffer_RNO\[12\]/A  DistanceSensor_0/data_buffer_RNO\[12\]/Y  DistanceSensor_0/data_buffer\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data_buffer_RNO\[9\]/A  DistanceSensor_0/data_buffer_RNO\[9\]/Y  DistanceSensor_0/data_buffer\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[11\]/CLK  DistanceSensor_0/data_buffer\[11\]/Q  DistanceSensor_0/data_buffer_RNO\[11\]/A  DistanceSensor_0/data_buffer_RNO\[11\]/Y  DistanceSensor_0/data_buffer\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data_buffer_RNO\[20\]/A  DistanceSensor_0/data_buffer_RNO\[20\]/Y  DistanceSensor_0/data_buffer\[20\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[1\]/CLK  DistanceSensor_0/count\[1\]/Q  DistanceSensor_0/count_2_I_5/B  DistanceSensor_0/count_2_I_5/Y  DistanceSensor_0/count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[4\]/CLK  DistanceSensor_0/count\[4\]/Q  DistanceSensor_0/count_2_I_12/B  DistanceSensor_0/count_2_I_12/Y  DistanceSensor_0/count\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[12\]/CLK  DistanceSensor_0/count\[12\]/Q  DistanceSensor_0/count_2_I_35/B  DistanceSensor_0/count_2_I_35/Y  DistanceSensor_0/count\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[6\]/CLK  DistanceSensor_0/count\[6\]/Q  DistanceSensor_0/count_2_I_17/B  DistanceSensor_0/count_2_I_17/Y  DistanceSensor_0/count\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[2\]/CLK  DistanceSensor_0/count\[2\]/Q  DistanceSensor_0/count_2_I_7/B  DistanceSensor_0/count_2_I_7/Y  DistanceSensor_0/count\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[13\]/CLK  DistanceSensor_0/count\[13\]/Q  DistanceSensor_0/count_2_I_37/B  DistanceSensor_0/count_2_I_37/Y  DistanceSensor_0/count\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[13\]/CLK  DistanceSensor_0/data_buffer\[13\]/Q  DistanceSensor_0/data_buffer_RNO\[13\]/A  DistanceSensor_0/data_buffer_RNO\[13\]/Y  DistanceSensor_0/data_buffer\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[10\]/CLK  DistanceSensor_0/data_buffer\[10\]/Q  DistanceSensor_0/data_buffer_RNO\[10\]/A  DistanceSensor_0/data_buffer_RNO\[10\]/Y  DistanceSensor_0/data_buffer\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[27\]/CLK  DistanceSensor_0/data_buffer\[27\]/Q  DistanceSensor_0/data_buffer_RNO\[27\]/B  DistanceSensor_0/data_buffer_RNO\[27\]/Y  DistanceSensor_0/data_buffer\[27\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[3\]/CLK  DistanceSensor_0/data_buffer\[3\]/Q  DistanceSensor_0/data_buffer_RNO\[3\]/A  DistanceSensor_0/data_buffer_RNO\[3\]/Y  DistanceSensor_0/data_buffer\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[2\]/CLK  DistanceSensor_0/data_buffer\[2\]/Q  DistanceSensor_0/data_buffer_RNO\[2\]/A  DistanceSensor_0/data_buffer_RNO\[2\]/Y  DistanceSensor_0/data_buffer\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[16\]/CLK  DistanceSensor_0/data_buffer\[16\]/Q  DistanceSensor_0/data_buffer_RNO\[16\]/A  DistanceSensor_0/data_buffer_RNO\[16\]/Y  DistanceSensor_0/data_buffer\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[21\]/CLK  DistanceSensor_0/data_buffer\[21\]/Q  DistanceSensor_0/data_buffer_RNO\[21\]/A  DistanceSensor_0/data_buffer_RNO\[21\]/Y  DistanceSensor_0/data_buffer\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[18\]/CLK  DistanceSensor_0/data_buffer\[18\]/Q  DistanceSensor_0/data_buffer_RNO\[18\]/A  DistanceSensor_0/data_buffer_RNO\[18\]/Y  DistanceSensor_0/data_buffer\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[22\]/CLK  DistanceSensor_0/data_buffer\[22\]/Q  DistanceSensor_0/data_buffer_RNO\[22\]/B  DistanceSensor_0/data_buffer_RNO\[22\]/Y  DistanceSensor_0/data_buffer\[22\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[23\]/CLK  DistanceSensor_0/data_buffer\[23\]/Q  DistanceSensor_0/data_buffer_RNO\[23\]/B  DistanceSensor_0/data_buffer_RNO\[23\]/Y  DistanceSensor_0/data_buffer\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[28\]/CLK  DistanceSensor_0/data_buffer\[28\]/Q  DistanceSensor_0/data_buffer_RNO\[28\]/B  DistanceSensor_0/data_buffer_RNO\[28\]/Y  DistanceSensor_0/data_buffer\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNO\[1\]/B  DistanceSensor_0/data_buffer_RNO\[1\]/Y  DistanceSensor_0/data_buffer\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[14\]/CLK  DistanceSensor_0/data_buffer\[14\]/Q  DistanceSensor_0/data_buffer_RNO\[14\]/B  DistanceSensor_0/data_buffer_RNO\[14\]/Y  DistanceSensor_0/data_buffer\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[24\]/CLK  DistanceSensor_0/data_buffer\[24\]/Q  DistanceSensor_0/data_buffer_RNO\[24\]/B  DistanceSensor_0/data_buffer_RNO\[24\]/Y  DistanceSensor_0/data_buffer\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[29\]/CLK  DistanceSensor_0/data_buffer\[29\]/Q  DistanceSensor_0/data_buffer_RNO\[29\]/B  DistanceSensor_0/data_buffer_RNO\[29\]/Y  DistanceSensor_0/data_buffer\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[0\]/CLK  DistanceSensor_0/count\[0\]/Q  DistanceSensor_0/count_RNO\[0\]/A  DistanceSensor_0/count_RNO\[0\]/Y  DistanceSensor_0/count\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[0\]/CLK  DistanceSensor_0/count\[0\]/Q  DistanceSensor_0/count_2_I_5/A  DistanceSensor_0/count_2_I_5/Y  DistanceSensor_0/count\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[11\]/CLK  DistanceSensor_0/count\[11\]/Q  DistanceSensor_0/count_2_I_32/B  DistanceSensor_0/count_2_I_32/Y  DistanceSensor_0/count\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/count\[14\]/CLK  DistanceSensor_0/count\[14\]/Q  DistanceSensor_0/count_2_I_40/B  DistanceSensor_0/count_2_I_40/Y  DistanceSensor_0/count\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data_buffer_RNO\[0\]/A  DistanceSensor_0/data_buffer_RNO\[0\]/Y  DistanceSensor_0/data_buffer\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[1\]/CLK  DistanceSensor_0/data_buffer\[1\]/Q  DistanceSensor_0/data_buffer_RNO\[1\]/A  DistanceSensor_0/data_buffer_RNO\[1\]/Y  DistanceSensor_0/data_buffer\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[17\]/CLK  DistanceSensor_0/data_buffer\[17\]/Q  DistanceSensor_0/data_buffer_RNO\[17\]/A  DistanceSensor_0/data_buffer_RNO\[17\]/Y  DistanceSensor_0/data_buffer\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[19\]/CLK  DistanceSensor_0/data_buffer\[19\]/Q  DistanceSensor_0/data_buffer_RNO\[19\]/A  DistanceSensor_0/data_buffer_RNO\[19\]/Y  DistanceSensor_0/data_buffer\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[25\]/CLK  DistanceSensor_0/data_buffer\[25\]/Q  DistanceSensor_0/data_buffer_RNO\[25\]/B  DistanceSensor_0/data_buffer_RNO\[25\]/Y  DistanceSensor_0/data_buffer\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[30\]/CLK  DistanceSensor_0/data_buffer\[30\]/Q  DistanceSensor_0/data_buffer_RNO\[30\]/B  DistanceSensor_0/data_buffer_RNO\[30\]/Y  DistanceSensor_0/data_buffer\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[5\]/CLK  DistanceSensor_0/data_buffer\[5\]/Q  DistanceSensor_0/data\[5\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[31\]/CLK  DistanceSensor_0/data_buffer\[31\]/Q  DistanceSensor_0/data_buffer_RNO\[31\]/B  DistanceSensor_0/data_buffer_RNO\[31\]/Y  DistanceSensor_0/data_buffer\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[6\]/CLK  DistanceSensor_0/data_buffer\[6\]/Q  DistanceSensor_0/data\[6\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[7\]/CLK  DistanceSensor_0/data_buffer\[7\]/Q  DistanceSensor_0/data\[7\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[4\]/CLK  DistanceSensor_0/data_buffer\[4\]/Q  DistanceSensor_0/data\[4\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[8\]/CLK  DistanceSensor_0/data_buffer\[8\]/Q  DistanceSensor_0/data\[8\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[12\]/CLK  DistanceSensor_0/data_buffer\[12\]/Q  DistanceSensor_0/data\[12\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[9\]/CLK  DistanceSensor_0/data_buffer\[9\]/Q  DistanceSensor_0/data\[9\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[11\]/CLK  DistanceSensor_0/data_buffer\[11\]/Q  DistanceSensor_0/data\[11\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[20\]/CLK  DistanceSensor_0/data_buffer\[20\]/Q  DistanceSensor_0/data\[20\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[26\]/CLK  DistanceSensor_0/data_buffer\[26\]/Q  DistanceSensor_0/data\[26\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[27\]/CLK  DistanceSensor_0/data_buffer\[27\]/Q  DistanceSensor_0/data\[27\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[13\]/CLK  DistanceSensor_0/data_buffer\[13\]/Q  DistanceSensor_0/data\[13\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[10\]/CLK  DistanceSensor_0/data_buffer\[10\]/Q  DistanceSensor_0/data\[10\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[22\]/CLK  DistanceSensor_0/data_buffer\[22\]/Q  DistanceSensor_0/data\[22\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[23\]/CLK  DistanceSensor_0/data_buffer\[23\]/Q  DistanceSensor_0/data\[23\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/echo_0/CLK  DistanceSensor_0/echo_0/Q  DistanceSensor_0/echo_1/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[28\]/CLK  DistanceSensor_0/data_buffer\[28\]/Q  DistanceSensor_0/data\[28\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[0\]/CLK  DistanceSensor_0/data_buffer\[0\]/Q  DistanceSensor_0/data\[0\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[3\]/CLK  DistanceSensor_0/data_buffer\[3\]/Q  DistanceSensor_0/data\[3\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[2\]/CLK  DistanceSensor_0/data_buffer\[2\]/Q  DistanceSensor_0/data\[2\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[16\]/CLK  DistanceSensor_0/data_buffer\[16\]/Q  DistanceSensor_0/data\[16\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[15\]/CLK  DistanceSensor_0/data_buffer\[15\]/Q  DistanceSensor_0/data\[15\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[14\]/CLK  DistanceSensor_0/data_buffer\[14\]/Q  DistanceSensor_0/data\[14\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[21\]/CLK  DistanceSensor_0/data_buffer\[21\]/Q  DistanceSensor_0/data\[21\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[18\]/CLK  DistanceSensor_0/data_buffer\[18\]/Q  DistanceSensor_0/data\[18\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[24\]/CLK  DistanceSensor_0/data_buffer\[24\]/Q  DistanceSensor_0/data\[24\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[29\]/CLK  DistanceSensor_0/data_buffer\[29\]/Q  DistanceSensor_0/data\[29\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[1\]/CLK  DistanceSensor_0/data_buffer\[1\]/Q  DistanceSensor_0/data\[1\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[17\]/CLK  DistanceSensor_0/data_buffer\[17\]/Q  DistanceSensor_0/data\[17\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[19\]/CLK  DistanceSensor_0/data_buffer\[19\]/Q  DistanceSensor_0/data\[19\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[25\]/CLK  DistanceSensor_0/data_buffer\[25\]/Q  DistanceSensor_0/data\[25\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[30\]/CLK  DistanceSensor_0/data_buffer\[30\]/Q  DistanceSensor_0/data\[30\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/data_buffer\[31\]/CLK  DistanceSensor_0/data_buffer\[31\]/Q  DistanceSensor_0/data\[31\]/D  	(9.5:9.5:9.5) )
+
+    (PATHCONSTRAINT DistanceSensor_0/trigger/CLK  DistanceSensor_0/trigger/Q  trigger_pad/D  trigger_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

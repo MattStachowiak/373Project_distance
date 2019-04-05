@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Tue Apr 02 15:15:33 2019
+Project   :  C:\project\distance
+Component :  distance_mss_MSS
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/project/distance/component/work/distance_mss_MSS/MSS_CCC_0/distance_mss_MSS_tmp_MSS_CCC_0_MSS_CCC.v
+    C:/project/distance/component/work/distance_mss_MSS/distance_mss_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/project/distance/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v
+    C:/project/distance/component/work/distance_mss_MSS/mss_tshell.v
+    C:/project/distance/component/work/distance_mss_MSS/mss_tshell_syn.sdc
+
+Stimulus files for all Simulation tools:
+    C:/project/distance/component/Actel/SmartFusionMSS/MSS/2.5.200/CompileDssBfm.tcl
+    C:/project/distance/component/Actel/SmartFusionMSS/MSS/2.5.200/bfmtovec.exe
+    C:/project/distance/component/work/distance_mss_MSS/MSS_ENVM_0/test.bfm
+

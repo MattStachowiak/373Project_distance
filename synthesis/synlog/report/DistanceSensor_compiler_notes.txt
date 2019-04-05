@@ -1,0 +1,63 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\project\distance\hdl\sensing.v":29:7:29:20|Synthesizing module DistanceSensor in library work.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[20] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[21] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[22] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[23] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[24] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[25] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[26] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[27] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[28] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[29] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[30] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":58:4:58:9|Register bit count[31] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[12] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[13] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[14] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[15] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[16] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[17] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[18] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[19] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[20] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[21] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[22] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[23] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[24] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[25] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[26] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[27] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[28] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[29] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[30] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data_buffer[31] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[12] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[13] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[14] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[15] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[16] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[17] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[18] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[19] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[20] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[21] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[22] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[23] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[24] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[25] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[26] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[27] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[28] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[29] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[30] is always 0.
+@N: CL189 :"C:\project\distance\hdl\sensing.v":79:4:79:9|Register bit data[31] is always 0.
+@N: CL159 :"C:\project\distance\hdl\sensing.v":31:10:31:16|Input PRESERN is unused.
+@N: CL159 :"C:\project\distance\hdl\sensing.v":33:10:33:13|Input PSEL is unused.
+@N: CL159 :"C:\project\distance\hdl\sensing.v":34:10:34:16|Input PENABLE is unused.
+@N: CL159 :"C:\project\distance\hdl\sensing.v":37:10:37:15|Input PWRITE is unused.
+@N: CL159 :"C:\project\distance\hdl\sensing.v":38:17:38:21|Input PADDR is unused.
+@N: CL159 :"C:\project\distance\hdl\sensing.v":39:22:39:27|Input PWDATA is unused.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <inttypes.h>
+#include "drivers/mss_uart/mss_uart.h"
+
+#define BASE_ADDR 0x40050000;
+
+volatile uint32_t* DATA_READ = (uint32_t*) BASE_ADDR;
+
+int data_to_cm(uint32_t in_data){
+	int cm_data = (int)in_data / 1000000;
+	return cm_data/56;
+}
+
+int main() {
+
+
+	// It looks like the ultrasonic sensor returns a 0
+	// when it gets a packet of bad data
+
+	// Distance in cm = echo pulse width in uS/58
+	// DATA contains echo pulse width in
+	while( 1 ) {
+		uint32_t DATA = *DATA_READ;
+		printf("%ld\r\n", DATA);
+	}
+}

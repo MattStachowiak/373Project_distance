@@ -1,0 +1,108 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    EECS373-12
+Date:        Fri Apr 05 14:11:39 2019
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log distance_mss_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+auto_infer_blackbox is not supported in current product.
+
+log file: "C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srr"
+
+Running: synthesis in foreground
+
+
+
+Running distance_mss_syn|synthesis
+
+
+Running: compile (Compile) on distance_mss_syn|synthesis
+# Fri Apr 05 14:11:39 2019
+
+
+Running: compile_flow (Compile Process) on distance_mss_syn|synthesis
+# Fri Apr 05 14:11:39 2019
+
+
+Running: compiler (Compile Input) on distance_mss_syn|synthesis
+# Fri Apr 05 14:11:39 2019
+
+Copied C:\Users\mtstacho\Desktop\project\distance\synthesis\synwork\distance_mss_comp.srs to C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srs
+
+
+compiler completed
+# Fri Apr 05 14:11:41 2019
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on distance_mss_syn|synthesis
+# Fri Apr 05 14:11:41 2019
+
+
+multi_srs_gen completed
+# Fri Apr 05 14:11:41 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\mtstacho\Desktop\project\distance\synthesis\synwork\distance_mss_mult.srs to C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srs
+
+Complete: Compile Process on distance_mss_syn|synthesis
+
+
+Running: premap (Pre-mapping) on distance_mss_syn|synthesis
+# Fri Apr 05 14:11:41 2019
+
+
+premap completed with warnings
+# Fri Apr 05 14:11:42 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Compile on distance_mss_syn|synthesis
+
+
+Running: map (Map) on distance_mss_syn|synthesis
+# Fri Apr 05 14:11:42 2019
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on distance_mss_syn|synthesis
+# Fri Apr 05 14:11:42 2019
+
+Copied C:\Users\mtstacho\Desktop\project\distance\synthesis\synwork\distance_mss_m.srm to C:\Users\mtstacho\Desktop\project\distance\synthesis\distance_mss.srm
+
+
+fpga_mapper completed with warnings
+# Fri Apr 05 14:11:43 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Map on distance_mss_syn|synthesis
+
+Complete: Logic Synthesis on distance_mss_syn|synthesis
+
+TCL script complete: "distance_mss_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+
